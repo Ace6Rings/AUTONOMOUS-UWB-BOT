@@ -714,15 +714,24 @@
         "filename": "AutoBot.kicad_sch",
         "name": "Root",
         "uuid": "f0c1f634-c0f3-4bd1-ace6-074b146b57fe"
+      },
+      {
+        "filename": "robot.kicad_sch",
+        "name": "Robot",
+        "uuid": "c312a6f3-6d34-48de-967e-20580312a19c"
       }
     ],
-    "used_designators": "D3-5,L1-4,#PWR16,#PWR30-56,C14,C18-36,Q1-3,J2-9,R9,R11-19,SW1-3,Y1-3",
+    "used_designators": "D3-6,L1-5,#PWR16,#PWR30-111,C14,C18-79,Q1-6,J2-9,R8-9,R11-42,SW1-3,Y1-3,BT1-2,IC2-3,FB2-3,U4-7,TH1",
     "variants": []
   },
   "sheets": [
     [
       "f0c1f634-c0f3-4bd1-ace6-074b146b57fe",
       "Root"
+    ],
+    [
+      "c312a6f3-6d34-48de-967e-20580312a19c",
+      "Robot"
     ]
   ],
   "text_variables": {},
