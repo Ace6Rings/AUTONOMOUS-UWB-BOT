@@ -81,6 +81,27 @@ This is the entire schematic.
 
 Time spent: 5 hours
 
+I moved on to the robot mainboard pcb today. First, I did a little bit of research on the general parts im going to use and I didn't really do much there.
+The main thing I did today is wiring the power circuit. 
+I am using the HUSB238 to negotiate the voltage the USBC will deliver, and I configured it so that it gave 12 volts 3 amps (or 3.5, i forgot).
+<img width="1128" height="558" alt="Screenshot 2026-08-11 030144" src="https://github.com/user-attachments/assets/6bfd3664-515e-40ee-b5e5-99a5c62f21a1" />
+I also added 22 ohm resistors to account for ringing, but it should probably be fine anyway since its usb 2.0
+Then, I moved on to the battery charging IC. I chose the BQ24170RGYR. It is a pretty advanced battery charging ic since it can support up to 3 cells and have all those protections and stuff. But that also means there is alot of stuff to wire up. This took the majority of the session time since the documentation wasn't very good at all.
+<img width="1056" height="743" alt="Screenshot 2026-08-11 030405" src="https://github.com/user-attachments/assets/6f6f72e6-e046-47c9-85be-451d13104d5f" />
+This is the final circuit (besides the values ofc) and it was pretty tedious to get to this point because of reference schematics like this.
+<img width="655" height="480" alt="Screenshot 2026-08-10 234656" src="https://github.com/user-attachments/assets/722be356-407b-4385-ac56-47043e8680c1" />
+It looks pretty simple after I made the circuit myself but it was a huge mess when I first saw it. 
+There are pretty strange values like this
+<img width="712" height="466" alt="Screenshot 2026-08-11 002533" src="https://github.com/user-attachments/assets/30549811-a070-4699-8fd9-03a804b6120d" />
+I guess they meant microfarad instead of millifarad since other reference circuits made it micro and it just doesnt make sense to have that big of a capacitor anyway.
+<img width="685" height="755" alt="Screenshot 2026-08-11 021502" src="https://github.com/user-attachments/assets/74cd7078-3b10-4d44-a6ae-b6640ba88981" />
+Finally, I ended up with this LM5176 buck converter. This one is also pretty advanced since theres alot of protections and modes to change the frequency (ig noise) and stuff. This is useful when i make my own filtering later.
+This will take some time because every capacitor value isn't fixed. I have to look at the datasheet and do some math to get the capacitor value i want since it does changes settings like bootup time and protection settings.
+This took me 4 hours and 20 minutes.
+
+
+
+
 
 
 
