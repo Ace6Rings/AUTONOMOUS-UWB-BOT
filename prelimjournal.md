@@ -1,4 +1,12 @@
-8/7 journal prewrite
+---
+title: Autobot
+author: Ace6Rings
+description: placeholder
+created_at: "8/2/2026"
+---
+
+
+# 8/7
 
 
 This session is the first session for wiring the schematic.
@@ -36,13 +44,13 @@ The middle left is just gpio stuff. For the netlabels not named as the gpio, i w
 0.8 mA does absolutely nothing. I guess i will use a cheap mosfet to drive the led ig, but thats if i have the space. Reading the dc characteristics of this took like 15 minutes to do.
 Total time spent - 4 hours
 
-8/8 prelim journal
+# 8/8 
 
 I spent 30 minutes on fixing my schematic with my friend who knows how to route. <img width="1187" height="796" alt="Screenshot 2026-08-08 033142" src="https://github.com/user-attachments/assets/e3097999-7415-4dac-9731-b4eecb491232" />
 
 I left sbu1 and 2 floating, added correct capacitor values to the charging ic, added correct capacitor values to the dw3210, fixed the rf configuration since 2pf cap not required for r2, fixed led direction, and a bunch of other stuff.
 
-8/9 prelim journal
+# 8/9 
 
 I finished the schematic for the anchor. 
 <img width="955" height="861" alt="Screenshot 2026-08-09 015838" src="https://github.com/user-attachments/assets/d85ba5ed-4ea7-47b4-81d8-aa2449bc8e82" />
@@ -80,7 +88,7 @@ This is what the rest of the schematic look like.
 This is the entire schematic.
 
 Time spent: 5 hours
-
+# 8/10
 I moved on to the robot mainboard pcb today. First, I did a little bit of research on the general parts im going to use and I didn't really do much there.
 The main thing I did today is wiring the power circuit. 
 I am using the HUSB238 to negotiate the voltage the USBC will deliver, and I configured it so that it gave 12 volts 3 amps (or 3.5, i forgot).
