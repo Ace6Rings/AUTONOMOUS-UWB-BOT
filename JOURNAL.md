@@ -42,13 +42,16 @@ I took 45 minutes to look at the datasheet to know whats going on with the symbo
 Wake up is just waking up. Rstn is just reset, though i thought i needed pull up resistors but i realized since the nrf will be powered on in conjunction with the dw3210 anyway i might aswell just let the mcu take full control.
 The middle left is just gpio stuff. For the netlabels not named as the gpio, i will use it as led indicators. You can see what it does by looking at the name. However, the gpios are hella butt because of this
 0.8 mA does absolutely nothing. I guess i will use a cheap mosfet to drive the led ig, but thats if i have the space. Reading the dc characteristics of this took like 15 minutes to do.
-Total time spent - 4 hours
+
+Time spent: 4 hours
 
 # 8/8 
 
 I spent 30 minutes on fixing my schematic with my friend who knows how to route. <img width="1187" height="796" alt="Screenshot 2026-08-08 033142" src="https://github.com/user-attachments/assets/e3097999-7415-4dac-9731-b4eecb491232" />
 
 I left sbu1 and 2 floating, added correct capacitor values to the charging ic, added correct capacitor values to the dw3210, fixed the rf configuration since 2pf cap not required for r2, fixed led direction, and a bunch of other stuff.
+
+Time spent: 0.5 hours
 
 # 8/9 
 
@@ -105,7 +108,8 @@ I guess they meant microfarad instead of millifarad since other reference circui
 <img width="685" height="755" alt="Screenshot 2026-08-11 021502" src="https://github.com/user-attachments/assets/74cd7078-3b10-4d44-a6ae-b6640ba88981" />
 Finally, I ended up with this LM5176 buck converter. This one is also pretty advanced since theres alot of protections and modes to change the frequency (ig noise) and stuff. This is useful when i make my own filtering later.
 This will take some time because every capacitor value isn't fixed. I have to look at the datasheet and do some math to get the capacitor value i want since it does changes settings like bootup time and protection settings.
-This took me 4 hours and 20 minutes.
+
+Time spent: 4.5 hours
 
 
 
