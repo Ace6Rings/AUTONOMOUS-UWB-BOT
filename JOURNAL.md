@@ -111,6 +111,22 @@ This will take some time because every capacitor value isn't fixed. I have to lo
 
 Time spent: 4.5 hours
 
+# 8/13 
+
+In this session, I worked on the rest of the power schematic for the main robot board.
+<img width="1353" height="620" alt="Screenshot 2026-08-15 163355" src="https://github.com/user-attachments/assets/ecbd575c-cc2a-4141-860e-49483464d0af" />
+I did some research on how to use this buck converter. Theres some features like dithering that I didn't need and some features like ccm that I do need for my usecase. I used the webench calculator to find the recommended values for the capacitors, inductors, and resistors for this ic so that I don't have to do the math. At the end, I ended up with the schematic you see above.
+Then, I did some research for the rest of the power rails im going to have.
+I decided that I should split the power from the battery (~12v) into 24v via the lm5175, and 5v via the LM2596. I didn't spend nearly as much time as with the other parts of the power schematic compared to this but I did do a little research on the efficiency curves. The lm2596 has around ~90% efficiency at 12 vin and 5 vout at like 1.5a or 2a. This is pretty much fine and its not like I'm powering anything crazy.
+<img width="1353" height="620" alt="Screenshot 2026-08-15 163355" src="https://github.com/user-attachments/assets/0de858a7-408b-45bb-a682-c333c313623c" />
+Then the 5 volts is going to go to components that need 5v (prolly or prolly not, depending on what stuff I put on there)
+and then the 5v is going to go to different low noise ldo to 3v3. The dw3220 are each going to get their own ldo and their own filtering, and i'll make sure anti resonance doesnt happen (prolly won't anyway).
+<img width="1207" height="271" alt="Screenshot 2026-08-15 164206" src="https://github.com/user-attachments/assets/ac8dba3e-761a-4c5e-9939-53c3ef1c2b18" />
+Time spent: 3 hours
+
+
+
+
 
 
 
