@@ -719,9 +719,14 @@
         "filename": "robot.kicad_sch",
         "name": "Robot",
         "uuid": "c312a6f3-6d34-48de-967e-20580312a19c"
+      },
+      {
+        "filename": "test.kicad_sch",
+        "name": "test",
+        "uuid": "91346657-4a46-4c29-bd0c-ed2da281efcd"
       }
     ],
-    "used_designators": "D3-6,L1-5,#PWR16,#PWR30-111,C14,C18-79,Q1-6,J2-9,R8-9,R11-42,SW1-3,Y1-3,BT1-2,IC2-3,FB2-3,U4-7,TH1",
+    "used_designators": "J10-11,R49-51,R58-66,SW2,SW4,#PWR154-170,U4,U13-17,C118-131",
     "variants": []
   },
   "sheets": [
@@ -732,6 +737,10 @@
     [
       "c312a6f3-6d34-48de-967e-20580312a19c",
       "Robot"
+    ],
+    [
+      "91346657-4a46-4c29-bd0c-ed2da281efcd",
+      "test"
     ]
   ],
   "text_variables": {},
