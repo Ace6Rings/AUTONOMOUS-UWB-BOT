@@ -122,7 +122,38 @@ I decided that I should split the power from the battery (~12v) into 24v via the
 Then the 5 volts is going to go to components that need 5v (prolly or prolly not, depending on what stuff I put on there)
 and then the 5v is going to go to different low noise ldo to 3v3. The dw3220 are each going to get their own ldo and their own filtering, and i'll make sure anti resonance doesnt happen (prolly won't anyway).
 <img width="1207" height="271" alt="Screenshot 2026-08-15 164206" src="https://github.com/user-attachments/assets/ac8dba3e-761a-4c5e-9939-53c3ef1c2b18" />
+
 Time spent: 3 hours
+
+# 8/15
+
+Today is mainly figuring out the actual components of the board. As of right now, I'm going to use a stm32H7 series chip (footprint tbd), two bmi 270 so i can get accurate positioning and acceleration data, two dw 3220 for polling, two tmc 2209 la t for the motor drivers, four tof sensor modules (it will just little 2.54mm pins on the actual pcb since im going to use a module), and two rotary encoders.
+
+I didn't get to record the entire session since it paused midway, but hopefully journaling is enough.
+
+
+<img width="1317" height="766" alt="Screenshot 2026-08-15 164720" src="https://github.com/user-attachments/assets/bec849b3-450a-4f3f-9cc5-35f38c7435a4" />
+
+I first did the power for the stm32 and the boot pins and reset. I did some research and it turned out that most of the stuff i have to worry about is firmware, so yeah.
+
+<img width="1258" height="421" alt="Screenshot 2026-08-15 164935" src="https://github.com/user-attachments/assets/66c40265-04d1-4b1c-bc4a-8a9091f70007" />
+
+I then did some research on the bmi270 and decided to use the spi 4 wire option because it is faster than i2c. I have more than enough pins so it doesn't matter. They will both be in separate buses so that data arrives at the same time and i can average them out and stuff.
+
+<img width="1340" height="561" alt="Screenshot 2026-08-15 165105" src="https://github.com/user-attachments/assets/5214c638-23bc-45d3-a2b1-b5c7f3917252" />
+
+I read the datasheet for the tmc2209 and got to this. I had to make the symbol myself since the others were pretty bad.
+I configured the tmc2209 so that it gives the stm32 data on the position of the motor via the index pin and also some other diagnostic stuff that i only have to worry about in the firmware. There are probably libraries already so im fine.
+The diagnostic pin will give diagnostics ig and pdn uart is just a uart pin. Spread and stdby is marked nc because uart takes over anyway so its fine. MS2 and MS1 are configured in a way that it gives 64 microsteps and its uart id is 2. Usually its a problem if they have the same id but its fine because im using separate uart pins for each, so its all good. 
+Now, all i have to do is place down some 2.54mm pins to connect my stuff to my modules. But this is going to be quite difficult on the pcb side since i have to account for the cad at the same time, and i dont even have a design in mind right now. The pcb shape will obviously need to account for the dw3220 antennas (2, or 4) so thats a significant amount of space. The mechanical side is not yet figured out exactly but i will just probably use a nema 14 and a timing belt at a 7.5 gear ratio to get the best torque i can. 
+Im also not sure what to do about the power schematic so far since im afraid i will mess something up and the robot is gonna blow up.
+
+Time spent: 2 hours
+
+
+
+
+
 
 
 
