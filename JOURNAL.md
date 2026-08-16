@@ -150,6 +150,31 @@ Im also not sure what to do about the power schematic so far since im afraid i w
 
 Time spent: 2 hours
 
+# 8/16
+
+This session focuses on the digital part of the schematic. Usually I can just slap stuff onto the gpio and be done with it, but I've never used the stm32. 
+First, I decided to switch my mcu to the stm32h743zit6 because of its higher clock speed (480 mhz). It does have a lower amount of ram (400kb less) but it should be fine since i won't be using a lidar.
+Speaking of lidars, I decided to not use a 2d lidar anymore because the vehicle is going to be low on the ground. There is just no significant advantages to using a lidar over a ToF sensor. 
+I chose to use the VL53L1X module from adafruit. I might use their other module with a smaller range in how much distance it measures but can measure shorter distances more accurately. I might just use that because this is meant for obstacle avoiding anyway.
+(VL6180X)
+Choosing the pins for the stm32 is also a challenge because of the board layout. The board will largely be symmetrical because i need it to be for my bmi 270 and dw3220. It just won't work correctly if it isn't. I did some preliminary wiring.
+<img width="771" height="865" alt="Screenshot 2026-08-16 165548" src="https://github.com/user-attachments/assets/655bf509-3fea-416c-90f4-066e9e4e05e4" />
+Oh yeah i changed the nreset wiring because it has an internal pull  up.
+<img width="892" height="318" alt="Screenshot 2026-08-16 165556" src="https://github.com/user-attachments/assets/2f09c49c-4c56-44c0-ade6-5ab4611d1bad" />
+I made my own symbol for the adafruit module and it looks like that. I will organize my schematic later fr
+<img width="717" height="840" alt="Screenshot 2026-08-16 165605" src="https://github.com/user-attachments/assets/7ab95571-4389-4afd-b49f-51bf051c6faf" />
+After asking on the kicad discord server i decided that i shouldn't use an onboard battery charging module due to safety reasons. It won't improve my performance in anyway so i might aswell omit that and leave it for v2.
+<img width="1112" height="446" alt="Screenshot 2026-08-16 165614" src="https://github.com/user-attachments/assets/ab7cf129-96a0-4185-8c98-63c8c3b64461" />
+I added a ina226 to do some current sensing and added a shunt resistor. I might change the value but 5m seems good rn.
+<img width="665" height="198" alt="Screenshot 2026-08-16 165629" src="https://github.com/user-attachments/assets/b4e661d5-5851-4cdd-9e72-3ce05fb6e3d4" />
+And yeah i changed the mcu to this
+<img width="900" height="574" alt="Screenshot 2026-08-16 170642" src="https://github.com/user-attachments/assets/6c5fae04-205e-4e37-8da5-6a18a7f83e24" />
+<img width="1086" height="683" alt="Screenshot 2026-08-16 170635" src="https://github.com/user-attachments/assets/ee085415-7775-47be-ab3a-5ed287a300a8" />
+<img width="1110" height="763" alt="Screenshot 2026-08-16 170624" src="https://github.com/user-attachments/assets/36be733d-4118-42bc-8273-09f8bebb449c" />
+This is the entire schematic, i will clean it up later.
+Time spent: 2 hours
+
+
 
 
 
