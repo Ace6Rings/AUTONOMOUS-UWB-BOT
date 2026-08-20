@@ -197,7 +197,7 @@ I routed the config pins
 The mosfets wont be sot23, so i didnt route this yet. The inductor is huge though.<img width="1238" height="651" alt="Screenshot 2026-08-19 213839" src="https://github.com/user-attachments/assets/f44c9251-e9b0-4ead-9354-4f715d54c154" />
 Here is the overall board. It is going to be long and skinny. Hopefully this will turn out nicely. I doubt that the UWB performance will drop because of the extra wires, infact, it might be better since theres more space in the main board and less noise (hopefully). <br>
 
-Time spent : 4.62 hours
+Time spent: 4.62 hours
 
 
 
