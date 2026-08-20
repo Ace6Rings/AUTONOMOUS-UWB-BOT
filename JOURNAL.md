@@ -174,6 +174,30 @@ And yeah i changed the mcu to this
 This is the entire schematic, i will clean it up later.
 Time spent: 2 hours
 
+# 8/19 
+
+This session is about doing a little more research on how the overall project is going to go. First, I decided to look for simpler buck converters to avoid potential issues. I don't want by project to not work just because of some power management issue. However, all the simple buck converters can't provide sufficient power. 
+So i decided to go back to the lm5175, mainly because i don't want my previous research and work to go to waste. After some thought, I decided that I should just make the power system on a separate breakout board.
+The battery will first go to the breakout board via screw terminals (or whatever port is good, maybe i'll just get a 12v pack but thats chunky and looks unpolished). Then, the power will split to the lm5175 path and the other path will go straight to the 12v terminal. So one board provides both 12v and 24v. This is also optimal for noise because they are physically on separate boards.
+I might also put the 5v buck converter here so that the board just outputs 24v and 5v. The 3v3 ldo will be on the mainboard to optimize for noise.
+
+To do this, I first need to confirm my values and parts. So far, I've been slacking a little about part sourcing and values, but this time i need to confirm it.
+The lm5175 will be configured for 12v-16v vin (originally 6-16v but 2.6uH inductors are very difficult to source, so 3.3uH is the best option), 24 vout, 10 ms wake up, and ccm on.
+Because i changed the settings, the values naturally shift aswell.<img width="1067" height="775" alt="Screenshot 2026-08-19 213743" src="https://github.com/user-attachments/assets/cc85bf75-e53f-48b8-b1d4-17e4a039b868" />
+<img width="926" height="672" alt="Screenshot 2026-08-19 213702" src="https://github.com/user-attachments/assets/bc7284cf-89fe-4166-bcf2-b057faccbadb" />
+<img width="449" height="311" alt="Screenshot 2026-08-19 213648" src="https://github.com/user-attachments/assets/f7d1f4a8-818b-45d7-9432-549bdd5ea313" />
+<img width="613" height="834" alt="Screenshot 2026-08-19 213639" src="https://github.com/user-attachments/assets/dc1ac96c-af97-4543-a3a7-8ab6fe897c71" />
+You can see how the values changed and also my parts are there too (except for the mosfets, I will deal with them tomorrow).
+Then, I moved onto some preliminary pcb routing. It is still unfinished and unpolished, but here is the progress i made.
+<img width="1148" height="657" alt="Screenshot 2026-08-19 213810" src="https://github.com/user-attachments/assets/2f589510-b1ce-456c-b7c7-d0bc62aa43d4" />
+I decided to use electrolytic capacitors (smd) because the datasheet says that its recommended.
+<img width="822" height="638" alt="Screenshot 2026-08-19 213818" src="https://github.com/user-attachments/assets/f8fe8280-68d7-4c6c-9d08-c9494ef78adb" />
+I routed the config pins
+<img width="777" height="623" alt="Screenshot 2026-08-19 213826" src="https://github.com/user-attachments/assets/0c04ac19-7733-40be-829d-307a059a8000" />
+The mosfets wont be sot23, so i didnt route this yet. The inductor is huge though.<img width="1238" height="651" alt="Screenshot 2026-08-19 213839" src="https://github.com/user-attachments/assets/f44c9251-e9b0-4ead-9354-4f715d54c154" />
+Here is the overall board. It is going to be long and skinny. Hopefully this will turn out nicely. I doubt that the UWB performance will drop because of the extra wires, infact, it might be better since theres more space in the main board and less noise (hopefully). 
+
+Time spent : 4.62 hours
 
 
 
