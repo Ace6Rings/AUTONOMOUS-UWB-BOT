@@ -199,6 +199,30 @@ Here is the overall board. It is going to be long and skinny. Hopefully this wil
 
 Time spent: 4.6 hours
 
+# 8/20
+
+This session is a continuation of making my breakout board for the power. 
+Finding parts was quite a challenge because I am unfamiliar with analog and power circuits. I searched up what parts are recommended and i ended up using the reference parts from Webench calculator. Most of the parts are unavailable in jlcpcb pcba service, so i used the part as a reference instead. I finally got all my parts.
+<img width="892" height="483" alt="Screenshot 2026-08-20 225948" src="https://github.com/user-attachments/assets/cd2358fc-854e-4325-abb2-308d9d65143d" />
+<img width="789" height="468" alt="Screenshot 2026-08-20 230003" src="https://github.com/user-attachments/assets/ba97c89e-70bc-41b6-a8c6-3b7a29499087" />
+<img width="903" height="523" alt="Screenshot 2026-08-20 230016" src="https://github.com/user-attachments/assets/9ee09f84-c79a-4b30-aa26-a64d5ee08d28" />
+These are the parts i found, and of course i needed to source the footprints aswell. 
+Overall, these didn't take so long. Maybe 1-1.5 hours worth of part sourcing.
+The most challenging part was to find the correct inductor, since the rest of the bom depends on this one inductor. I configured the lm5175 so that it uses a 2.2uH inductor. Some inductors are just too big, and some aren't exactly power inductors. I finally found the correct inductor, and it is pretty space efficient too. 
+This does mean i have to drop my max current but thats fine as long as i get nema 17 motors (8A max since 2 A per phase and there are 2 bipolar motors).
+As for the capacitors, I've heard that polymer capacitors perform much better because of its ESR and ripple current. I don't know too deep about the capacitors, and power isn't the point of this project anyway. 
+You might also notice that the picture of the lm5175 is a different package. That is because the qfn version is unavailable and I had to change the pin definitions. That was a little annoying but its fine. 
+Now, for the PCB, I looked around the internet for recommended setups (cuz im not a professional). I tried out multiple orientations, but i find that this one works the best.
+<img width="1392" height="780" alt="Screenshot 2026-08-20 225519" src="https://github.com/user-attachments/assets/39de73e5-6249-4cbd-af81-cee11c9d4519" />
+This one is pretty cool since all the high power stuff is in copper pours and the gate pins are conveniently placed. very cool. 
+<img width="461" height="223" alt="Screenshot 2026-08-20 222642" src="https://github.com/user-attachments/assets/33200397-db2d-418f-bb59-615ac11d14c4" />
+This part of the pcb wasn't in the previous picture because i didn't quite figure it out yet. I will probably place the diodes in a far away place since these diodes are just for boot pins.
+<img width="826" height="772" alt="Screenshot 2026-08-20 225510" src="https://github.com/user-attachments/assets/9ef2e212-1484-42d6-a932-e9e35bcc8a4b" />
+I placed some vias for the SW1 and SW2 pins (sw2 not done). Hopefully that is enough to carry alot of current. The package of the lm5175 is certainly a challenge, and i am not sure of the effects of placing the hdrv1 trace so close, but it should be fine since it is only 300khz. They are separated by 2 layers anyway, with a gnd plane right underneath as reference. 
+Also i might put the bottom stuff into the 3rd layer since that is what they are for anyway, power. 
+I also need to figure out what to do with all the empty space, I can't exactly make it thinner or shorter, but functionally it should be ok for my robot. 
+
+Time spent: 4.75 hours
 
 
 
