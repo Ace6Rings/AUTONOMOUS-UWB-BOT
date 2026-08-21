@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.875,
-          "width": 0.25
+          "height": 0.4,
+          "width": 1.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -198,7 +198,8 @@
         0.25,
         0.5,
         0.9,
-        1.0
+        1.0,
+        2.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -642,6 +643,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -654,7 +663,7 @@
         "uuid": "55e1af9e-0ce6-427e-8a3b-d9517e87da9c"
       }
     ],
-    "used_designators": "BT1,L1,L4-5,D1-5,D8-17,#PWR1-18,#PWR119-142,C1-15,C86-113,Q1-4,Q8-15,R1-9,R46-63,U1,U19-20,J1-3",
+    "used_designators": "C16,#PWR19,U2",
     "variants": []
   },
   "sheets": [
