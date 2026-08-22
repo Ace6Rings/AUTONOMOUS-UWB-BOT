@@ -224,6 +224,19 @@ I also need to figure out what to do with all the empty space, I can't exactly m
 
 Time spent: 4.75 hours
 
+# 8/21
+
+I continued to route my pcb, it's almost done! I conferred with my friends, who also happens to be making a power supply using a buck boost converter, he gave me some tips like using a LTC2433 instead of using a current sense resistor for the average current sense feature. 
+I also found some reference schematics at https://www.ti.com/reference-designs/index.html#search?keyword=LM5175 and https://www.ti.com/lit/df/tidrha4/tidrha4.pdf?ts=1787329435707&ref_url=https%3A%2F%2Fti.com%2F
+I didn't really get anywhere far in this session since I was more focused on making my existing routing work and i was stressing over the placements of parts and such. I thought that I should place the decoupling capacitors close, but for this specific package it seems to be impossible.
+<img width="905" height="596" alt="Screenshot 2026-08-21 233409" src="https://github.com/user-attachments/assets/bd67009b-a86f-4802-bea3-1ce6157733a7" />
+This part of the pcb was what took most of the time today. There is just so much sensitive traces in a such weird order (cuz of the pinout) that it is pretty hard to make this work. Thankfully, I have reference pcbs to help me, but i shouldn't rely on that completely. <img width="332" height="703" alt="Screenshot 2026-08-21 233359" src="https://github.com/user-attachments/assets/d68eba4e-76b0-4f46-9582-9c5d84c115e1" />
+I added this to my sw2 pin, technically i don't have to do this thick of a "trace" but it just looks so much nicer. I did some research on how this ic actually works, and it turns out that none of the pins actually have high current, they just sense stuff and switch the mosfets. <img width="1153" height="422" alt="Screenshot 2026-08-21 233632" src="https://github.com/user-attachments/assets/3056aa7c-7368-4e6c-b0b5-e1bb3f8b13ca" />
+Speaking of mosfets, this is the routing that i did. Its okay ig.
+<img width="1255" height="685" alt="Screenshot 2026-08-21 233351" src="https://github.com/user-attachments/assets/cd3af6a0-b944-45b2-88fc-587578fbe619" />
+This is the entire pcb rn. I could just route the rest lazily and move along and it will still work (albeit prolly not well), but i want this to be as polished as it can be. 
+
+Time spent: 2.5 hours
 
 
 
