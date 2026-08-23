@@ -239,10 +239,23 @@ This is the entire pcb rn. I could just route the rest lazily and move along and
 Time spent: 2.5 hours
 
 
+# 8/22 
 
+For this session i finished the breakout board pcb routing and did half of the anchor pcb. 
+For the breakout board i did some additional research on how to ground the thing and also the copper planes on the first layer.
+<img width="1151" height="698" alt="Screenshot 2026-08-23 022549" src="https://github.com/user-attachments/assets/87670404-9b13-4acb-9560-641af585a9bb" />
+To connect pgnd and agnd the datasheet says to connect them in the ic pad, which i did. There was some issues with getting the nets right.
+<img width="1296" height="789" alt="Screenshot 2026-08-23 022557" src="https://github.com/user-attachments/assets/69dbee62-bfd0-4903-a609-aab1b9dd0906" />
+From the two pictures, you can see that there is a small agnd plane and a bigger gnd plane for the rest of the bottom board. They are connected (will be after i get my via stitching plug in) using vias which stitches the 1st layer gnd plane to the 2nd layer gnd plane (unbroken). 
+<img width="1265" height="677" alt="Screenshot 2026-08-23 022606" src="https://github.com/user-attachments/assets/5a7fad89-0966-4f19-8e3c-d9fa9bfd80eb" />
+This is the final (not really) look of the pcb. There is definitely some improvements to be made but i want to focus on the real project instead of some power system. 
+I planned to continue my mainboard schematic but decided that i should do the anchor pcb first, especially since the schematic is actually well polished and finished (except for some footprints).<img width="1011" height="728" alt="Screenshot 2026-08-23 015253" src="https://github.com/user-attachments/assets/5be58dee-67e5-4a3f-9fb3-6e11432e552a" />
+I first used user drawings to draw out the shape of the pcb, this is 40mm by 75 mm. I centered everything using some user drawings aswell to make this as symmetrical as i can. This is because of the spi traces you see on the top of the nrf. 
+<img width="754" height="745" alt="Screenshot 2026-08-23 023505" src="https://github.com/user-attachments/assets/661e62d1-eb11-4661-95ca-0fb6cd637f89" />
+You may also notice some pin header footprints on either side of the board. These are used to flash the chip, debug the chip, and also some extra gpio pins that i may or may not use after i build it (like adding a imu to detect if the anchor has been moved). In any case, these pin headers should be useful to me and also just makes the board much more useful for others to build off of. 
+You may also notice that there are rounded traces for my rf trace. This is because im going to run this at ~8ghz but it can be like 7-9. I forgot the exact figures. There is also two dc blocker capacitors (0201) and im going to put a gnd plane on the first layer and stitch it. That way, everything should be ok. 
 
-
-
+Time spent: 4.2 hours
 
 
 
