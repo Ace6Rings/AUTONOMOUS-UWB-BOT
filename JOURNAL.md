@@ -257,7 +257,7 @@ You may also notice that there are rounded traces for my rf trace. This is becau
 
 Time spent: 4.2 hours
 
-8/23
+# 8/23
 
 For this session i continued working on the anchor pcb. Most of the time was spent trying to figure out how to do the decoupling capacitors for the dw3220. I can tell that i will spend quite some time to do the power system for the nrf52840 aswell. This is because i enabled the dc dc buck converter in the ic, which increases efficiency but adds a few components i need to use. Since i am aiming for having single side pcba, it is pretty difficult to optimize the placement. The crystal was a nuisance since it is big and also have external load capacitors. Conveniently, they are also next to the power pins i'm trying to decouple.
 <img width="802" height="727" alt="Screenshot 2026-08-23 235816" src="https://github.com/user-attachments/assets/007c1237-9f29-4cca-894a-aabaf71210d6" />
