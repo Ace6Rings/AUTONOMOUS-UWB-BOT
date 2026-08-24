@@ -257,6 +257,20 @@ You may also notice that there are rounded traces for my rf trace. This is becau
 
 Time spent: 4.2 hours
 
+8/23
+
+For this session i continued working on the anchor pcb. Most of the time was spent trying to figure out how to do the decoupling capacitors for the dw3220. I can tell that i will spend quite some time to do the power system for the nrf52840 aswell. This is because i enabled the dc dc buck converter in the ic, which increases efficiency but adds a few components i need to use. Since i am aiming for having single side pcba, it is pretty difficult to optimize the placement. The crystal was a nuisance since it is big and also have external load capacitors. Conveniently, they are also next to the power pins i'm trying to decouple.
+<img width="802" height="727" alt="Screenshot 2026-08-23 235816" src="https://github.com/user-attachments/assets/007c1237-9f29-4cca-894a-aabaf71210d6" />
+After a few tries, i think it turned out pretty good, i dont think i can optimize this further without changing the parts and footprints. Why not 0201? because that causes pcba to be much more expensive allegedly (didnt test).
+I also used rounded corners to minimize reflection and stuff. The cyrstal is especially important, probably the most important component on the board besides the antennas. This is because i need precise clock measurements because of what i am doing with it (you should know from the context of this project).
+According to the application notes, it seems to recommend a specific crystal and requests a 3.3 pf load capacitor. I will look more into it tomorrow. Also, there is stuff about band pass filters. I will look into that later aswell since it might be useful/required for the project. This could improve performance i guess.
+But anyway, I didnt work on the actual rf portion of the pcb today. I did literally everything else except for the nrf antenna, i might not even use it but i guess i can give it a try (its just inconvenient to route)<img width="1123" height="532" alt="Screenshot 2026-08-23 235413" src="https://github.com/user-attachments/assets/95e8f1c4-b92c-4584-bb08-64097f8a34b9" />
+<img width="933" height="695" alt="Screenshot 2026-08-23 235423" src="https://github.com/user-attachments/assets/34960bd2-6c34-4ddd-b7d4-81784c85aa0d" />
+So far, its looking good. 
+I just need to find the inductors and dipswitch i want and everything will be complete.
+Time spent: 2.67 hours
+
+
 
 
 
