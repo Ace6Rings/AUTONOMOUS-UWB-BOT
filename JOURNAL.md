@@ -267,7 +267,7 @@ According to the application notes, it seems to recommend a specific crystal and
 But anyway, I didnt work on the actual rf portion of the pcb today. I did literally everything else except for the nrf antenna, i might not even use it but i guess i can give it a try (its just inconvenient to route)<img width="1123" height="532" alt="Screenshot 2026-08-23 235413" src="https://github.com/user-attachments/assets/95e8f1c4-b92c-4584-bb08-64097f8a34b9" />
 <img width="933" height="695" alt="Screenshot 2026-08-23 235423" src="https://github.com/user-attachments/assets/34960bd2-6c34-4ddd-b7d4-81784c85aa0d" />
 So far, its looking good. 
-I just need to find the inductors and dipswitch i want and everything will be complete.
+I just need to find the inductors and dipswitch i want and everything will be complete. <br>
 Time spent: 2.67 hours
 
 
