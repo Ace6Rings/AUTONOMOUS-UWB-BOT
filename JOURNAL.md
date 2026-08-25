@@ -270,8 +270,15 @@ So far, its looking good.
 I just need to find the inductors and dipswitch i want and everything will be complete. <br>
 Time spent: 2.67 hours
 
+# 8/24
 
+I just added a dipswitch and a tactile switch to my pcb. Then, I added the inductor and capacitors. I will optimize for noise but right now i would like to focus on the actual rf portion of the pcb. I also noticed that the dw3220 is not available on jlcpcb nor digikey, so this could be an expensive project (i alr knew that anyway).
+This time there isn't much to say since it really is just grunt work and the majority of the time spent is on part sourcing and footprint finding. 
+Also i decided to not have a nrf52840 antenna since it is pretty useless and theres no space for it.<img width="365" height="684" alt="Screenshot 2026-08-24 230046" src="https://github.com/user-attachments/assets/49b3c1dc-e168-409c-a79a-6ba294548d23" />
 
+"<img width="632" height="589" alt="Screenshot 2026-08-24 225633" src="https://github.com/user-attachments/assets/726cc263-2538-4595-8668-6a027ab9f5d0" />
+
+Time spent: 1.5 hours
 
 
 
