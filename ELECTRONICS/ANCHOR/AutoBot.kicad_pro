@@ -721,15 +721,19 @@
         "uuid": "c312a6f3-6d34-48de-967e-20580312a19c"
       },
       {
-        "filename": "test.kicad_sch",
-        "name": "test",
+        "filename": "AutoBot.kicad_sch",
+        "name": "AutoBot",
         "uuid": "91346657-4a46-4c29-bd0c-ed2da281efcd"
       }
     ],
-    "used_designators": "J10-11,R49-51,R58-66,SW2,SW4,#PWR154-170,U4,U13-17,C118-131",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
+    [
+      "91346657-4a46-4c29-bd0c-ed2da281efcd",
+      "AutoBot"
+    ],
     [
       "f0c1f634-c0f3-4bd1-ace6-074b146b57fe",
       "Root"
@@ -737,10 +741,6 @@
     [
       "c312a6f3-6d34-48de-967e-20580312a19c",
       "Robot"
-    ],
-    [
-      "91346657-4a46-4c29-bd0c-ed2da281efcd",
-      "test"
     ]
   ],
   "text_variables": {},
