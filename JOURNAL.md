@@ -280,6 +280,19 @@ Also i decided to not have a nrf52840 antenna since it is pretty useless and the
 
 Time spent: 1.5 hours
 
+# 8/25
+
+This session focuses on the rf portion of the anchor. There isn't much routing going on today, I mainly did research on how the pcb itself is going to be manufactured and how that is going to affect my rf performance.
+Different stackups have different effects on the antenna. I tried my best to follow the application notes for the dw3220, but due to manufacturing costs (some stackups can't be used with economic pcba) i am forced to use the normal/default stack up. I also decided that i want impedance control.
+<img width="747" height="646" alt="Screenshot 2026-08-26 014938" src="https://github.com/user-attachments/assets/563eee1a-921d-49bf-9d54-cd5960575a05" />
+I also changed the material that the pcb is going to be made out of since it gives better performance ig. Its only a few extra dollars<img width="455" height="631" alt="Screenshot 2026-08-26 015110" src="https://github.com/user-attachments/assets/18155165-1187-404c-a5d1-0ace8c163e4b" />
+<img width="982" height="746" alt="Screenshot 2026-08-26 015052" src="https://github.com/user-attachments/assets/5ac290cb-dc86-425e-9397-3b65eaa2be17" />
+I also chose to use epoxy via finish cuz i need it for via in pad (maybe)
+<img width="356" height="657" alt="Screenshot 2026-08-26 015438" src="https://github.com/user-attachments/assets/02da4ed6-a01a-4a05-a7b2-b548c580fd4d" />
+I also did some research on how to route my antenna. This is preliminary since i didnt add my L1 gnd plane yet and the stitching vias are not confirmed yet cuz i need to do some calculations and such.
+
+Time spent: 3 hours
+
 
 
 
