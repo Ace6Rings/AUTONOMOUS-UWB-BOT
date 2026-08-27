@@ -293,7 +293,15 @@ I also did some research on how to route my antenna. This is preliminary since i
 
 Time spent: 3 hours
 
+# 8/26
 
+I only did some preliminary research on how to do my pcb.
+I made a plan to see what i am going to use for my mainboard, and after that research, things stayed mostly the same. I deleted the power stuff (the lm5175 and the husb238). That would simplify my design by a whole lot. 
+<img width="1253" height="521" alt="Screenshot 2026-08-26 231915" src="https://github.com/user-attachments/assets/682bb193-ad8e-4ab6-922c-3984311e46de" />
+I also changed the ms1 and ms2 config cuz it changes the uart address. The microstepping is done digitally instead of using ms1 and ms2 as a way to assign the uart address. I will likely use two buses so it doesnt rlly matter.
+Other than that, nothing really happened on the schematic.
+
+Time spent: 1.6 hours
 
 
 
