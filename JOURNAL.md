@@ -303,6 +303,26 @@ Other than that, nothing really happened on the schematic.
 
 Time spent: 1.6 hours
 
+# 8/27 and 8/29
+
+I merged these two dates because it feels right to combine them cuz they basically do the same thingy ig.
+
+I first did some research on esd protection. I will watch some videos on more protection circuits like an e fuse or whatever.
+I did a placeholder esd protection thingy for my amt 102 and my usbc data lines (i prolly dont even need this cuz its not that deep).<img width="1171" height="556" alt="Screenshot 2026-08-29 002827" src="https://github.com/user-attachments/assets/2e613a61-0ad6-4835-8d28-7bb1249a1558" />
+As you can see, i didnt source all the parts yet cuz no one wants to find ferrite beads.
+Then, I changed my lm2596 to the superior lmr51430 cuz its allegedly lower emi. I don't want to do that deep of research on analog/power circuits again. 
+<img width="973" height="502" alt="Screenshot 2026-08-29 003157" src="https://github.com/user-attachments/assets/0a6a8612-b62d-4037-b8d5-e9d6e0e679df" />
+Doing the footprints also took a substantial amount of time. But it isnt anything crazy since i already know what components to use, unlike for the breakout board i made.
+I didn't put the buck converter on the breakout board because there isn't enough space, and since its supposedly low emi i guess its fine if i put it far far away with some via stitiching. 
+I think now is the best to start my pcb 
+<img width="533" height="391" alt="Screenshot 2026-08-29 002550" src="https://github.com/user-attachments/assets/ef0a8fad-5f3d-4201-807a-adabbf53648b" />
+I did some prelim wiring. I like to do my components independently before slapping on the board because the routing is going to be the same anyway (like passives and stuff). The tmc 2209 shouldn't be hard at all to route. 
+
+There isn't really much to say for this journal since there isn't much research, its all doing stuff i already knew.
+But i will be reading alot of the stm32 documentation tomorrow since i want to make sure my stuff actually boots and also what all the pins do before doing more wiring. 
+
+Time spent: 4.5 hours
+
 
 
 
