@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.762,
-          "width": 0.254
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -195,8 +195,8 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
+        0.3,
         0.4,
         0.5,
         1.0
@@ -490,7 +490,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "autobot_mainboard.kicad_pro",
+    "filename": "betterschematicbotig.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -603,60 +603,6 @@
         },
         {
           "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
@@ -711,18 +657,114 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "autobot_mainboard.kicad_sch",
+        "filename": "betterschematicbotig.kicad_sch",
         "name": "Root",
-        "uuid": "f80fafff-4130-4c86-9d00-78741c77a025"
+        "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "#PWR18,#PWR20,#PWR24,#PWR26,#PWR28,#PWR48-51,#PWR55,#PWR117-121,C13,C17,C26,C79-83,FB5,R15,R20,J6-7,SW1-2,U16,Y1",
+    "used_designators": "L2,D1,D3-11,#PWR1-142,R1-30,J2-16,U1-12,U15-23,C1-99,FB1-6,IC1-3,Q1-9,Y1-4,SW1-2",
     "variants": []
   },
   "sheets": [
     [
-      "f80fafff-4130-4c86-9d00-78741c77a025",
+      "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d",
       "Root"
+    ],
+    [
+      "3bfa3ac1-569b-4dcd-933b-7ef1c6ac8888",
+      "LMR51430XDDCR"
+    ],
+    [
+      "d04181f1-3545-4903-8afb-41feb0a4a9a3",
+      "LDO"
+    ],
+    [
+      "784d5709-397e-4ddf-a25c-7a5778089f9e",
+      "USB"
+    ],
+    [
+      "39e7d174-ffe7-4b4e-a983-e2abb212b9b6",
+      "TMC2209_L"
+    ],
+    [
+      "8f5b1df0-1690-439e-a60a-46a43198f202",
+      "MOTOR_CONNECTOR_R"
+    ],
+    [
+      "79b6117a-72a7-4ed2-88d9-15cd859907cf",
+      "MOTOR_CONNECTOR_L"
+    ],
+    [
+      "33095814-6a92-4caa-8704-b20bd44a0045",
+      "TMC2209_R"
+    ],
+    [
+      "18a50009-3afb-45d9-96a2-f4fbe8f24a2b",
+      "VL53L1X0"
+    ],
+    [
+      "037a1145-d2fa-427f-912d-11744b2ed89a",
+      "VL53L1X1"
+    ],
+    [
+      "ea0baaba-f154-47d1-ba71-cf9d27cdfb48",
+      "VL53L1X2"
+    ],
+    [
+      "bbe9edfa-2cce-4350-82ca-a6538778d251",
+      "VL53L1X3"
+    ],
+    [
+      "96318396-5abd-4f7f-b640-2fd8293cba6f",
+      "BMI270_L"
+    ],
+    [
+      "cba10cde-fc91-41cf-a511-20028c387a58",
+      "BMI270_R"
+    ],
+    [
+      "9b7e5e64-ec75-4da5-8497-1788afcae863",
+      "AMT102_L"
+    ],
+    [
+      "25414fa5-5703-423e-9cac-5ebafad924bd",
+      "ESD_PROTECTION"
+    ],
+    [
+      "6f7d3baf-6e9d-45ae-a329-b78f8e18855d",
+      "LDO3"
+    ],
+    [
+      "b49e282a-c8ff-467d-bc65-06b02df06bd0",
+      "DW3220_T"
+    ],
+    [
+      "0fccf487-82ba-46aa-b4f9-fa30b5ecd66a",
+      "LDO1"
+    ],
+    [
+      "81f4ef01-6699-40d7-b94c-738d9569ae26",
+      "STM32H743"
+    ],
+    [
+      "1c6d06e3-b0d2-4b47-a753-c45fb24fef2f",
+      "POWER_CONNECTOR"
+    ],
+    [
+      "22a666a3-5790-4ceb-bf26-92e645ab7dd5",
+      "DW3220_B"
+    ],
+    [
+      "ad227302-2045-4a3c-a780-a5453aa68303",
+      "LDO2"
+    ],
+    [
+      "a4a47825-503e-4b6e-a4a3-cfc50e9a9818",
+      "AMT102_R"
+    ],
+    [
+      "25414fa5-5703-423e-9cac-5ebafad924bd",
+      "ESD_PROTECTION"
     ]
   ],
   "text_variables": {},
