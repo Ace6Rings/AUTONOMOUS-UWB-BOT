@@ -323,8 +323,26 @@ But i will be reading alot of the stm32 documentation tomorrow since i want to m
 
 Time spent: 4.5 hours
 
+# 9/2
 
-
-
+In this session I worked on the power and boot logic for the stm32. 
+<img width="1330" height="852" alt="Screenshot 2026-09-02 231537" src="https://github.com/user-attachments/assets/bede96a2-b868-47fd-89f9-390cbb6691b8" />
+I found out that i need a 10k resistor pulling it down instead of having it on the 3v3 side. 
+I want my stm32 to boot in as many ways as possible, so i also added a connector thingy that a st-link v2 can directly connect to. 
+I looked in my schematic and i found it to be messy and unorganized. So, i made a new schematic.
+<img width="782" height="360" alt="Screenshot 2026-09-02 231445" src="https://github.com/user-attachments/assets/0f5a1f3e-25f4-4104-ba66-b639631bb6c6" />
+<img width="882" height="603" alt="Screenshot 2026-09-02 231452" src="https://github.com/user-attachments/assets/ee2bb5cd-94ae-4249-aa65-6070ba14dbd8" />
+<img width="809" height="575" alt="Screenshot 2026-09-02 231501" src="https://github.com/user-attachments/assets/e7cab2f6-e1d5-4435-81ad-1580510e466e" />
+<img width="689" height="621" alt="Screenshot 2026-09-02 231509" src="https://github.com/user-attachments/assets/34283ef9-5009-40ea-b2f5-7f4498891477" />
+<img width="1222" height="805" alt="Screenshot 2026-09-02 231522" src="https://github.com/user-attachments/assets/4bb2e966-6417-42de-9777-6d102245d2a8" />
+<img width="1006" height="548" alt="Screenshot 2026-09-02 231436" src="https://github.com/user-attachments/assets/f4fb93ba-3ddf-45d6-98da-793d89cb0d42" />
+This took majority of the time.
+I also took some time to look at the stm32 datasheet to figure out what pins to use. I only gotten a little bit of work done on the pcb side.
+<img width="1020" height="509" alt="Screenshot 2026-09-02 231629" src="https://github.com/user-attachments/assets/54a8c6cd-5781-414a-9e2e-621c82a625af" />
+<img width="722" height="252" alt="Screenshot 2026-09-02 231635" src="https://github.com/user-attachments/assets/d5595845-9291-4341-9e48-beac5b3239c4" />
+Figuring out what pins to use would be difficult because every single pin are multi function, so i need to choose my pins carefully. Some pins are also superior to others like one pin could have tim channel 1, which is the super accurate timer ig. I also need to make this board symmetrical and stuff.
+I used the cubemx thingy to help me find the pins i need.
+There isn't really anything else to say cuz its just grunt work atp.
+Time spent: 4.75 hours
 
 
