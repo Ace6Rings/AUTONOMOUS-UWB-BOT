@@ -345,4 +345,15 @@ I used the cubemx thingy to help me find the pins i need.
 There isn't really anything else to say cuz its just grunt work atp.
 Time spent: 4.75 hours
 
+# 9/3
+
+Today i did some preliminary routing for the motor driver and dw3220. 
+I decided not to use two dw3220 since there is no real benefit to me and its also cheaper to just have one. It is also simpler mechanically too.
+Routing the tmc2209 and the amt102 is a bit of a challenge because the stm32 has alot of bullshit pins that does alot of different things. 
+I decided to use a timer pin for the step (to time it better ig) and use a special timer (tim1-8) for the amt102 because it can calculate whatever the amt102 sends back through hardware instead of me doing it by software (which is better). 
+<img width="661" height="549" alt="Screenshot 2026-09-03 235208" src="https://github.com/user-attachments/assets/4ea0f12b-a033-43ce-bad8-3b6d4712f694" />
+<img width="661" height="549" alt="Screenshot 2026-09-03 235208" src="https://github.com/user-attachments/assets/72b23481-c5c1-4191-9299-92191f4cfc7e" />
+<img width="713" height="578" alt="Screenshot 2026-09-03 235216" src="https://github.com/user-attachments/assets/0c7745fc-5816-48f1-a5bb-6b4439f37b9d" />
+Right now, the board is a bit big, i will optimize for space later on and make it look cooler.
+Time spent: 3.6 hours
 
