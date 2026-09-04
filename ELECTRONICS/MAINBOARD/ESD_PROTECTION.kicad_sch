@@ -1101,7 +1101,7 @@
 			(uuid "c334dd98-1ab3-4f12-800b-e98033ff86de")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/9b7e5e64-ec75-4da5-8497-1788afcae863/25414fa5-5703-423e-9cac-5ebafad924bd"
 					(reference "U18")
 					(unit 1)
@@ -1184,7 +1184,7 @@
 			(uuid "9cfa0361-8045-4f0e-850b-424648d8e92b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/9b7e5e64-ec75-4da5-8497-1788afcae863/25414fa5-5703-423e-9cac-5ebafad924bd"
 					(reference "#PWR083")
 					(unit 1)

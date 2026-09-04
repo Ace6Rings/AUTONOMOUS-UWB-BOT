@@ -506,7 +506,7 @@
 			(uuid "6386a4cb-73d7-4cd5-a44c-90274fef821d")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/1c6d06e3-b0d2-4b47-a753-c45fb24fef2f"
 					(reference "J5")
 					(unit 1)
@@ -585,7 +585,7 @@
 			(uuid "001466d3-059c-4fba-a0d4-685b08d1e379")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/1c6d06e3-b0d2-4b47-a753-c45fb24fef2f"
 					(reference "#PWR0104")
 					(unit 1)

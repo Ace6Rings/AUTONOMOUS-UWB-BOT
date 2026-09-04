@@ -479,7 +479,7 @@
 			(uuid "8d34c915-7890-45fb-9350-7050524f8d07")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/79b6117a-72a7-4ed2-88d9-15cd859907cf"
 					(reference "J3")
 					(unit 1)

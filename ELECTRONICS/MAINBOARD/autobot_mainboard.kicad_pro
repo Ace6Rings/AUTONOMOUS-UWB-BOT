@@ -143,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -195,6 +195,8 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
+        0.175,
         0.2,
         0.3,
         0.4,
@@ -490,7 +492,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "betterschematicbotig.kicad_pro",
+    "filename": "autobot_mainboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -657,18 +659,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "betterschematicbotig.kicad_sch",
-        "name": "Root",
+        "filename": "autobot_mainboard.kicad_sch",
+        "name": "autobot_mainboard",
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "L2,D1,D3-11,#PWR1-142,R1-30,J2-16,U1-12,U15-23,C1-99,FB1-6,IC1-3,Q1-9,Y1-4,SW1-2",
+    "used_designators": "C42-43",
     "variants": []
   },
   "sheets": [
     [
       "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d",
-      "Root"
+      "autobot_mainboard"
     ],
     [
       "3bfa3ac1-569b-4dcd-933b-7ef1c6ac8888",

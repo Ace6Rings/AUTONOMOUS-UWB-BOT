@@ -700,7 +700,7 @@
 			(uuid "2c4e824d-de10-455e-a36f-5fcbbbdf776e")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "#PWR048")
 					(unit 1)
@@ -791,7 +791,7 @@
 			(uuid "918c8b00-e138-4947-a78c-1cc89e92b82e")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "#PWR050")
 					(unit 1)
@@ -882,7 +882,7 @@
 			(uuid "47cb01c6-f6db-4717-9b37-474c0a8a2334")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "#PWR051")
 					(unit 1)
@@ -975,7 +975,7 @@
 			(uuid "75ee035f-6a7e-4886-96f7-b156b697a555")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "C30")
 					(unit 1)
@@ -1068,7 +1068,7 @@
 			(uuid "aab27a18-f5bd-411d-a791-c5ea05eca815")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "C34")
 					(unit 1)
@@ -1169,7 +1169,7 @@
 			(uuid "095c440c-9f5b-485d-b6a0-5c12dfd6c881")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/0fccf487-82ba-46aa-b4f9-fa30b5ecd66a"
 					(reference "U17")
 					(unit 1)

@@ -5592,6 +5592,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 127) (xy 226.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e011f8c-910c-4f4c-9ab0-7eb32785fa5d")
+	)
+	(wire
+		(pts
 			(xy 325.12 50.8) (xy 332.74 50.8)
 		)
 		(stroke
@@ -5642,6 +5652,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 144.78) (xy 233.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248e256c-bbbc-474d-9ade-c7b8b7dfbec1")
+	)
+	(wire
+		(pts
 			(xy 200.66 54.61) (xy 198.12 54.61)
 		)
 		(stroke
@@ -5679,6 +5699,26 @@
 			(type default)
 		)
 		(uuid "29aaee15-d1c2-4f2d-a6b8-78d64a55adf8")
+	)
+	(wire
+		(pts
+			(xy 156.21 210.82) (xy 160.02 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8bdee5-4d6c-4c17-bde9-cc9923efb552")
+	)
+	(wire
+		(pts
+			(xy 226.06 78.74) (xy 233.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd40920-08ff-49a6-b3e6-fef7d78c4a2b")
 	)
 	(wire
 		(pts
@@ -5722,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 147.32) (xy 233.68 147.32)
+			(xy 226.06 137.16) (xy 233.68 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5772,6 +5812,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 213.36) (xy 160.02 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42bd0267-3c9f-4597-beee-808af7e10ddf")
+	)
+	(wire
+		(pts
 			(xy 317.5 41.91) (xy 317.5 43.18)
 		)
 		(stroke
@@ -5779,6 +5829,16 @@
 			(type default)
 		)
 		(uuid "431e7985-edbc-47f9-8222-3db0c39f2628")
+	)
+	(wire
+		(pts
+			(xy 233.68 132.08) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b697b1-e249-4134-9bcd-1988f61bc8c0")
 	)
 	(wire
 		(pts
@@ -5849,6 +5909,16 @@
 			(type default)
 		)
 		(uuid "56df9a6a-aef9-423e-80a2-81a50b5756ee")
+	)
+	(wire
+		(pts
+			(xy 154.94 185.42) (xy 160.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab3722c-9001-47d9-b993-9a160aa6ea43")
 	)
 	(wire
 		(pts
@@ -5952,6 +6022,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 129.54) (xy 226.06 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691e4a72-5c85-456e-8510-5087484aba5b")
+	)
+	(wire
+		(pts
 			(xy 205.74 54.61) (xy 208.28 54.61)
 		)
 		(stroke
@@ -5972,13 +6052,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 182.88) (xy 160.02 182.88)
+			(xy 160.02 134.62) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77adc7f2-db31-492e-8537-ddf42b82f73d")
+		(uuid "744064f9-c740-486c-9292-6866a76778d9")
 	)
 	(wire
 		(pts
@@ -6002,6 +6082,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 205.74) (xy 160.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81be1ab2-b10d-40f5-91aa-d2c440fcc20d")
+	)
+	(wire
+		(pts
 			(xy 119.38 82.55) (xy 119.38 78.74)
 		)
 		(stroke
@@ -6009,6 +6099,16 @@
 			(type default)
 		)
 		(uuid "842b705f-2a13-4bbe-b0e8-7a5b47c9fe94")
+	)
+	(wire
+		(pts
+			(xy 226.06 142.24) (xy 233.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c3ab9f-8a7c-456a-964a-99cf320b26d8")
 	)
 	(wire
 		(pts
@@ -6082,6 +6182,26 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 149.86) (xy 226.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9622035d-849d-4a3d-ba7f-d65f5da326eb")
+	)
+	(wire
+		(pts
+			(xy 154.94 182.88) (xy 160.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c704c4-8214-4853-baab-1ac351687623")
+	)
+	(wire
+		(pts
 			(xy 317.5 52.07) (xy 317.5 50.8)
 		)
 		(stroke
@@ -6122,13 +6242,23 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 218.44) (xy 234.95 218.44)
+			(xy 160.02 220.98) (xy 154.94 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab350560-6064-4236-a11b-119920d7d4ab")
+	)
+	(wire
+		(pts
+			(xy 226.06 76.2) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad903323-fe9e-4464-bf10-66b45177182c")
 	)
 	(wire
 		(pts
@@ -6159,6 +6289,16 @@
 			(type default)
 		)
 		(uuid "b8dee2fe-53bc-4a7f-853f-7289b48482df")
+	)
+	(wire
+		(pts
+			(xy 154.94 187.96) (xy 160.02 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b95e7566-c851-4bda-bba3-f82846dd3a36")
 	)
 	(wire
 		(pts
@@ -6219,6 +6359,26 @@
 			(type default)
 		)
 		(uuid "c1e895fe-f79f-47ab-821c-1635581dadc5")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 233.68 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ab7f2e-a373-4281-bea0-cbd38e54a2c6")
+	)
+	(wire
+		(pts
+			(xy 154.94 190.5) (xy 160.02 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d8e63b-b681-493f-95e2-0ab69f791158")
 	)
 	(wire
 		(pts
@@ -6382,6 +6542,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 73.66) (xy 233.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6c3869-1e49-4fff-84f5-305c01e92ab9")
+	)
+	(wire
+		(pts
 			(xy 264.16 101.6) (xy 279.4 101.6)
 		)
 		(stroke
@@ -6412,6 +6582,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 86.36) (xy 233.68 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eefa680c-464a-42c0-b413-08689ffcc23a")
+	)
+	(wire
+		(pts
 			(xy 340.36 43.18) (xy 347.98 43.18)
 		)
 		(stroke
@@ -6432,6 +6612,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 193.04) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4766a40-a856-40ec-9395-28c5b842235d")
+	)
+	(wire
+		(pts
 			(xy 279.4 50.8) (xy 287.02 50.8)
 		)
 		(stroke
@@ -6439,6 +6629,26 @@
 			(type default)
 		)
 		(uuid "f5f54f73-f6f3-41b7-bed5-3649e82de8d2")
+	)
+	(wire
+		(pts
+			(xy 233.68 147.32) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6bf160e-8439-4f1b-bd12-70409853fda4")
+	)
+	(wire
+		(pts
+			(xy 226.06 81.28) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad82538-379f-4607-90a0-252fa2ff94a2")
 	)
 	(wire
 		(pts
@@ -6768,16 +6978,16 @@
 		)
 		(uuid "2c465ffa-c3dd-43bf-9023-3e143d3aa762")
 	)
-	(hierarchical_label "AMT_X_L"
+	(hierarchical_label "STEP_L"
 		(shape output)
-		(at 91.44 152.4 0)
+		(at 233.68 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "33693561-4a29-426d-9fd8-73716d09cb26")
+		(uuid "345d4334-8074-4553-96cb-a3ca9b9e2620")
 	)
 	(hierarchical_label "VL_XSHUT_1"
 		(shape output)
@@ -6803,7 +7013,7 @@
 	)
 	(hierarchical_label "AMT_B_L"
 		(shape output)
-		(at 91.44 149.86 0)
+		(at 233.68 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6814,18 +7024,18 @@
 	)
 	(hierarchical_label "AMT_B_R"
 		(shape output)
-		(at 91.44 160.02 0)
+		(at 156.21 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "41a3d0e8-9c7f-48c4-b3ba-cfe9deef26c7")
 	)
 	(hierarchical_label "CSN_T"
 		(shape output)
-		(at 64.77 123.19 180)
+		(at 254 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6858,7 +7068,7 @@
 	)
 	(hierarchical_label "STEP_R"
 		(shape output)
-		(at 233.68 147.32 0)
+		(at 233.68 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6869,7 +7079,7 @@
 	)
 	(hierarchical_label "TMC_EN_L"
 		(shape output)
-		(at 106.68 180.34 180)
+		(at 154.94 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6880,7 +7090,7 @@
 	)
 	(hierarchical_label "RXD0"
 		(shape output)
-		(at 106.68 172.72 180)
+		(at 154.94 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6913,7 +7123,7 @@
 	)
 	(hierarchical_label "INDEX_L"
 		(shape input)
-		(at 106.68 175.26 180)
+		(at 154.94 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6935,12 +7145,12 @@
 	)
 	(hierarchical_label "WAKEUP_T"
 		(shape output)
-		(at 64.77 110.49 180)
+		(at 233.68 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5e4cf099-5594-4ab9-aed1-b690c4ca097a")
 	)
@@ -6968,23 +7178,23 @@
 	)
 	(hierarchical_label "MOSI_T"
 		(shape output)
-		(at 64.77 118.11 180)
+		(at 233.68 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "624e5488-8b27-4027-863b-d234f6614a99")
 	)
 	(hierarchical_label "TXD1"
 		(shape input)
-		(at 121.92 170.18 180)
+		(at 233.68 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "63739da2-ea20-4830-afba-39b2807817c4")
 	)
@@ -7012,7 +7222,7 @@
 	)
 	(hierarchical_label "AMT_A_L"
 		(shape output)
-		(at 91.44 147.32 0)
+		(at 233.68 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7034,7 +7244,7 @@
 	)
 	(hierarchical_label "DIAG_L"
 		(shape input)
-		(at 106.68 177.8 180)
+		(at 154.94 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7045,12 +7255,12 @@
 	)
 	(hierarchical_label "MISO_T"
 		(shape input)
-		(at 64.77 120.65 180)
+		(at 233.68 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "83b2ff91-dff2-41de-bb62-4f69aacf07c0")
 	)
@@ -7067,12 +7277,12 @@
 	)
 	(hierarchical_label "AMT_X_R"
 		(shape output)
-		(at 91.44 162.56 0)
+		(at 156.21 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "85da79e3-68dc-46a5-8ef8-ce310ef5e807")
 	)
@@ -7100,12 +7310,12 @@
 	)
 	(hierarchical_label "SPICLK_T"
 		(shape output)
-		(at 64.77 115.57 180)
+		(at 233.68 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8bfa0b04-2f7e-46b3-bcd2-9369f8b178c4")
 	)
@@ -7133,12 +7343,12 @@
 	)
 	(hierarchical_label "AMT_A_R"
 		(shape output)
-		(at 91.44 157.48 0)
+		(at 156.21 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "945152bd-adf8-4267-9af1-c45b6eeda799")
 	)
@@ -7166,25 +7376,14 @@
 	)
 	(hierarchical_label "DIR_R"
 		(shape output)
-		(at 234.95 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a067bed4-1a05-4e37-b89e-4550ae17f64b")
-	)
-	(hierarchical_label "STEP_L"
-		(shape output)
-		(at 152.4 182.88 180)
+		(at 154.94 220.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a7259c00-6011-4264-b4a1-f09fcb93003c")
+		(uuid "a067bed4-1a05-4e37-b89e-4550ae17f64b")
 	)
 	(hierarchical_label "BMI_MISO_L"
 		(shape input)
@@ -7197,9 +7396,20 @@
 		)
 		(uuid "a79f6834-422f-484d-b8d5-861beb44b1ce")
 	)
+	(hierarchical_label "AMT_X_L"
+		(shape output)
+		(at 152.4 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7beeb8c-0803-4cce-9a19-3f500ea481fb")
+	)
 	(hierarchical_label "DIR_L"
 		(shape output)
-		(at 233.68 134.62 0)
+		(at 233.68 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7210,12 +7420,12 @@
 	)
 	(hierarchical_label "INDEX_R"
 		(shape input)
-		(at 121.92 175.26 180)
+		(at 233.68 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b4d49838-b984-481e-9ea6-e1f7be60dcf8")
 	)
@@ -7232,12 +7442,12 @@
 	)
 	(hierarchical_label "RESET_T"
 		(shape bidirectional)
-		(at 64.77 113.03 180)
+		(at 233.68 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bcffef31-0420-4886-b58a-58e745e8a125")
 	)
@@ -7265,7 +7475,7 @@
 	)
 	(hierarchical_label "TXD0"
 		(shape input)
-		(at 106.68 170.18 180)
+		(at 154.94 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,12 +7486,12 @@
 	)
 	(hierarchical_label "DIAG_R"
 		(shape input)
-		(at 121.92 177.8 180)
+		(at 233.68 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "cbc31c33-76dd-4784-97a7-480052dd0814")
 	)
@@ -7298,12 +7508,12 @@
 	)
 	(hierarchical_label "IRQ_T"
 		(shape bidirectional)
-		(at 64.77 125.73 180)
+		(at 233.68 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e6e7ab52-7b02-4fc5-98f4-22a8c1dd2833")
 	)
@@ -7320,12 +7530,12 @@
 	)
 	(hierarchical_label "RXD1"
 		(shape output)
-		(at 121.92 172.72 180)
+		(at 233.68 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e9e9aafa-8220-4d05-8384-781613f02b75")
 	)
@@ -7445,7 +7655,7 @@
 			(uuid "8a7dda5e-1f6e-4678-8b35-88338a306f27")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "FB5")
 					(unit 1)
@@ -7524,7 +7734,7 @@
 			(uuid "cf3da07c-e419-425a-ab17-7a5f0bf5dd73")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "SW1")
 					(unit 1)
@@ -7605,7 +7815,7 @@
 			(uuid "433415fc-568f-44b1-8217-99e12df24fed")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C79")
 					(unit 1)
@@ -7683,7 +7893,7 @@
 			(uuid "017513c2-6545-4933-825e-a6fea876b3c1")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR099")
 					(unit 1)
@@ -7764,7 +7974,7 @@
 			(uuid "76719f23-f8e1-4e87-a262-c1bc5d1d2f68")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C68")
 					(unit 1)
@@ -7843,7 +8053,7 @@
 			(uuid "4d2cd774-43db-4dac-9776-f3c27ab2d67f")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0119")
 					(unit 1)
@@ -7922,7 +8132,7 @@
 			(uuid "d532fb1a-5f4f-4864-8600-11a869a6bc67")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "SW2")
 					(unit 1)
@@ -8000,7 +8210,7 @@
 			(uuid "fbb91f63-bcaf-4876-b2a8-f486b80fa193")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR096")
 					(unit 1)
@@ -8081,7 +8291,7 @@
 			(uuid "5043e557-6c08-46f6-b359-333181dbccc6")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C83")
 					(unit 1)
@@ -8162,7 +8372,7 @@
 			(uuid "4da3ccbb-c9d1-4731-a82b-f1c4d15933a3")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C72")
 					(unit 1)
@@ -8243,7 +8453,7 @@
 			(uuid "49efddbc-5f33-458d-9e6f-bfdd8a77037b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C74")
 					(unit 1)
@@ -8324,7 +8534,7 @@
 			(uuid "63af1d12-d46a-4ddf-a72e-4554d5ed7c9e")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C69")
 					(unit 1)
@@ -8833,7 +9043,7 @@
 			(uuid "99b5f62e-4ad5-4c1a-a68b-90d3ffc29bed")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "U16")
 					(unit 1)
@@ -8912,7 +9122,7 @@
 			(uuid "8659718b-eb02-4405-9ba7-fea7e9688837")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0102")
 					(unit 1)
@@ -8993,7 +9203,7 @@
 			(uuid "2537e533-041e-4023-bfdd-c02e8703f787")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "R26")
 					(unit 1)
@@ -9081,7 +9291,7 @@
 			(uuid "9d59e664-e1ad-4024-9d00-32d7032d669f")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "J13")
 					(unit 1)
@@ -9160,7 +9370,7 @@
 			(uuid "a99174cb-e3a8-409e-8870-2cc214aae3b6")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR091")
 					(unit 1)
@@ -9239,7 +9449,7 @@
 			(uuid "a5d55c7c-02ae-4b57-be9f-3554e1096875")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR092")
 					(unit 1)
@@ -9320,7 +9530,7 @@
 			(uuid "833a2c59-ed5f-410d-a2d9-ead71710b6a6")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C63")
 					(unit 1)
@@ -9399,7 +9609,7 @@
 			(uuid "2bf91a95-37f2-4c03-b1a2-b44214bea513")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR095")
 					(unit 1)
@@ -9478,7 +9688,7 @@
 			(uuid "998c292f-32ca-4b01-9e54-799f5672ad21")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0118")
 					(unit 1)
@@ -9559,7 +9769,7 @@
 			(uuid "aebcaf75-46fd-41a0-a750-8bee0b140a5d")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C64")
 					(unit 1)
@@ -9640,7 +9850,7 @@
 			(uuid "c600788d-b040-4b04-8517-25ccee6f170c")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C66")
 					(unit 1)
@@ -9721,7 +9931,7 @@
 			(uuid "be82e2b8-6810-4514-a627-6b18ff1b74a6")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C61")
 					(unit 1)
@@ -9829,7 +10039,7 @@
 			(uuid "83b749e7-ab43-4268-8198-0963640ff2b8")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "Y3")
 					(unit 1)
@@ -9908,7 +10118,7 @@
 			(uuid "ea28e164-2c79-46bf-9e99-649748ec7e70")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR094")
 					(unit 1)
@@ -9987,7 +10197,7 @@
 			(uuid "bb0dc936-1f3f-42ed-a3f9-4754ce7e9354")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR093")
 					(unit 1)
@@ -10068,7 +10278,7 @@
 			(uuid "59c1bb51-b62b-4e58-90d6-9f20c7d36ec3")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C70")
 					(unit 1)
@@ -10147,7 +10357,7 @@
 			(uuid "f6186458-2850-4332-8c33-6c4c8c76b85f")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR098")
 					(unit 1)
@@ -10226,7 +10436,7 @@
 			(uuid "85f5d68d-fca8-4f77-b519-b39a00a3897b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0100")
 					(unit 1)
@@ -10305,7 +10515,7 @@
 			(uuid "e3ce2c37-6a34-4e92-b8c8-a7e2a1acf23b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0117")
 					(unit 1)
@@ -10384,7 +10594,7 @@
 			(uuid "d8b6d5e7-88ae-40cd-9f35-9d70fdd1b5b3")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0101")
 					(unit 1)
@@ -10463,7 +10673,7 @@
 			(uuid "44b444d6-fc99-4136-9a4f-8c683dc36622")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0121")
 					(unit 1)
@@ -10542,7 +10752,7 @@
 			(uuid "899ab70a-ca5b-40d6-8a9d-8539872237fd")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR0120")
 					(unit 1)
@@ -10623,7 +10833,7 @@
 			(uuid "f9c3d562-9f26-4a17-b1fa-611f64ec75b4")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C81")
 					(unit 1)
@@ -10704,7 +10914,7 @@
 			(uuid "5c708426-dbd6-4e7b-850c-b827ce95ec0b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C82")
 					(unit 1)
@@ -10785,7 +10995,7 @@
 			(uuid "a0cf66bb-024e-4815-b79d-e87d4646a0bc")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C65")
 					(unit 1)
@@ -10866,7 +11076,7 @@
 			(uuid "aa4532bc-205d-431e-9afb-67da306c300d")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C73")
 					(unit 1)
@@ -10945,7 +11155,7 @@
 			(uuid "e063f55a-d273-4238-92e2-ddfe36eaaf0c")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "#PWR097")
 					(unit 1)
@@ -11026,7 +11236,7 @@
 			(uuid "15fb30e6-5bc2-41d9-878e-56a718edc54b")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C67")
 					(unit 1)
@@ -11107,7 +11317,7 @@
 			(uuid "ebe6a1c8-62b2-4fd4-adce-3941923cb7f2")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "R25")
 					(unit 1)
@@ -11188,7 +11398,7 @@
 			(uuid "de25e0f6-8cf4-4c01-b375-0251b6b7729f")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C62")
 					(unit 1)
@@ -11269,7 +11479,7 @@
 			(uuid "05644711-304c-4f8c-85b7-6f4c9b49cfd4")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C80")
 					(unit 1)
@@ -11357,7 +11567,7 @@
 			(uuid "7b0ab7f7-114e-4b09-86e0-795f4cfea3e5")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "J6")
 					(unit 1)
@@ -11438,7 +11648,7 @@
 			(uuid "b3c4fcf3-2efd-430b-80ab-08d9265bbd86")
 		)
 		(instances
-			(project "betterschematicbotig"
+			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/81f4ef01-6699-40d7-b94c-738d9569ae26"
 					(reference "C71")
 					(unit 1)
