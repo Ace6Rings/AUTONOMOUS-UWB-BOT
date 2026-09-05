@@ -664,7 +664,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "C42-43",
+    "used_designators": "C35-36,C42-43,C45,C47-48,C50,C57-60,U10,U13-14,U16,L1,L3,#PWR52,#PWR55-56,#PWR70-74,#PWR76-77,#PWR80-81,#PWR84-86,#PWR103,#PWR105-109,#PWR116,#PWR122-125,R9,R22-24,R27-28",
     "variants": []
   },
   "sheets": [
@@ -737,6 +737,10 @@
       "LDO3"
     ],
     [
+      "f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0",
+      "ESC"
+    ],
+    [
       "b49e282a-c8ff-467d-bc65-06b02df06bd0",
       "DW3220_T"
     ],
@@ -753,12 +757,12 @@
       "POWER_CONNECTOR"
     ],
     [
-      "22a666a3-5790-4ceb-bf26-92e645ab7dd5",
-      "DW3220_B"
+      "35b0743f-bfc0-4c80-81d1-a26461aee3a5",
+      "MCT8316Z"
     ],
     [
-      "ad227302-2045-4a3c-a780-a5453aa68303",
-      "LDO2"
+      "4c96326a-0fa3-4119-8b1c-d767e21eccb3",
+      "MCT8316Z1"
     ],
     [
       "a4a47825-503e-4b6e-a4a3-cfc50e9a9818",
@@ -767,6 +771,14 @@
     [
       "25414fa5-5703-423e-9cac-5ebafad924bd",
       "ESD_PROTECTION"
+    ],
+    [
+      "999db3ce-ae1f-457b-ad21-df1fb0fb0856",
+      "BLDC_CONNECTOR"
+    ],
+    [
+      "999db3ce-ae1f-457b-ad21-df1fb0fb0856",
+      "BLDC_CONNECTOR"
     ]
   ],
   "text_variables": {},

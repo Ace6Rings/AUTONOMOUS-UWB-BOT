@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "041f4f5b-cb22-4c5a-95ce-4ee503e82c82")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "HALL_C"
+		(shape input)
+		(at 82.55 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d29359d-f43a-4c44-8c61-64feb31a1b88")
+	)
+	(hierarchical_label "HALL_B"
+		(shape input)
+		(at 82.55 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71a7ca0e-eddb-41f4-994c-592c9a62230d")
+	)
+	(hierarchical_label "OUTC"
+		(shape input)
+		(at 82.55 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81e9750f-fc58-4e2c-982c-3fc004380089")
+	)
+	(hierarchical_label "OUTB"
+		(shape input)
+		(at 82.55 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6921b88-ec70-45af-b220-74fce7885c2a")
+	)
+	(hierarchical_label "HALL_A"
+		(shape input)
+		(at 82.55 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e53fc054-00c6-4aa3-8932-f7aca312e964")
+	)
+	(hierarchical_label "OUTA"
+		(shape input)
+		(at 82.55 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc6af108-e530-46a3-9c58-6e0740e2fa8b")
+	)
+)

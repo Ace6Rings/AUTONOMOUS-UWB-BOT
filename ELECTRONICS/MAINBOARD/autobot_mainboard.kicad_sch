@@ -284,27 +284,11 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "just do 1\n"
-		(exclude_from_sim no)
-		(at 86.106 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5e4f2d7-0008-448b-a96a-c0bea1923d27")
-	)
 	(junction
 		(at 224.79 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051b479a-f88d-471d-9a14-0f359f91824b")
-	)
-	(junction
-		(at 38.1 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "064cb67b-f54c-4788-a025-2095265c8eae")
 	)
 	(junction
 		(at 201.93 114.3)
@@ -415,16 +399,6 @@
 			(type default)
 		)
 		(uuid "0b920aab-6100-4a91-afdb-0d23028346f1")
-	)
-	(wire
-		(pts
-			(xy 95.25 43.18) (xy 121.92 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "139106c1-268f-4de0-8891-ef32b6b9efff")
 	)
 	(wire
 		(pts
@@ -565,26 +539,6 @@
 			(type default)
 		)
 		(uuid "3a47ae9f-ef82-4345-990c-be7d239a2478")
-	)
-	(wire
-		(pts
-			(xy 67.31 27.94) (xy 73.66 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cd29048-6291-4a7f-9b13-a24cb32c9982")
-	)
-	(wire
-		(pts
-			(xy 95.25 27.94) (xy 121.92 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1a5b56-7e8b-43a3-a969-f298265e32ce")
 	)
 	(wire
 		(pts
@@ -748,23 +702,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 22.86) (xy 38.1 27.94)
+			(xy 38.1 22.86) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63487810-fc68-410d-bf45-d00d85749ea9")
-	)
-	(wire
-		(pts
-			(xy 38.1 27.94) (xy 48.26 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c4d7e9-8bae-4a62-8428-f1ce018be525")
 	)
 	(wire
 		(pts
@@ -775,26 +719,6 @@
 			(type default)
 		)
 		(uuid "66f47865-1016-443c-9583-699f82db309a")
-	)
-	(wire
-		(pts
-			(xy 95.25 38.1) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a0b2962-8600-4529-8ddf-ae01f14cdc84")
-	)
-	(wire
-		(pts
-			(xy 95.25 30.48) (xy 121.92 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f563dc0-e0fd-4f64-a446-1080f34f88e2")
 	)
 	(wire
 		(pts
@@ -1058,16 +982,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 33.02) (xy 121.92 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a323e557-d913-4f7b-8c78-6915428afd8e")
-	)
-	(wire
-		(pts
 			(xy 166.37 116.84) (xy 179.07 116.84)
 		)
 		(stroke
@@ -1115,16 +1029,6 @@
 			(type default)
 		)
 		(uuid "b24447bd-1e02-486c-8bca-bec33ef2ff7b")
-	)
-	(wire
-		(pts
-			(xy 38.1 27.94) (xy 38.1 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4297cc1-dffb-474c-a575-ef6f5ca175db")
 	)
 	(wire
 		(pts
@@ -1218,16 +1122,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 35.56) (xy 121.92 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd7d30a3-8e9d-4958-b165-a3f01bd73bfe")
-	)
-	(wire
-		(pts
 			(xy 194.31 114.3) (xy 201.93 114.3)
 		)
 		(stroke
@@ -1315,16 +1209,6 @@
 			(type default)
 		)
 		(uuid "ec560e3c-d3da-4ca1-bbe9-e7373cd238fb")
-	)
-	(wire
-		(pts
-			(xy 95.25 40.64) (xy 121.92 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bbdf99-2c1e-4e95-a2d6-498a1b7cffb6")
 	)
 	(wire
 		(pts
@@ -2221,132 +2105,6 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
 					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 73.66 26.67)
-		(size 21.59 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "22a666a3-5790-4ceb-bf26-92e645ab7dd5")
-		(property "Sheetname" "DW3220_B"
-			(at 73.66 46.736 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DW3220.kicad_sch"
-			(at 73.66 45.0346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3" input
-			(at 73.66 27.94 180)
-			(uuid "4b969cef-d9f3-4c17-ab25-a4a3ead649a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CSN" input
-			(at 95.25 43.18 0)
-			(uuid "ce396324-fcca-41e9-b4c7-ef1f05b9ced8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IRQ" bidirectional
-			(at 95.25 27.94 0)
-			(uuid "c1460fae-ff5f-4eb4-957b-1353ca206bc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO" output
-			(at 95.25 38.1 0)
-			(uuid "298839e3-82fb-4c79-a93c-262f10c6a062")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOSI" input
-			(at 95.25 35.56 0)
-			(uuid "34128ef4-541c-491c-9263-dad2c0b0f96e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RESET" bidirectional
-			(at 95.25 33.02 0)
-			(uuid "46ea5243-c480-4982-8c1e-3ecf3218f234")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPICLK" input
-			(at 95.25 40.64 0)
-			(uuid "d5fec80b-b7f8-4732-9d24-6484cd3f7fd9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "WAKEUP" input
-			(at 95.25 30.48 0)
-			(uuid "589416cb-d531-47c9-999c-1e7b843cb449")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
-					(page "23")
 				)
 			)
 		)
@@ -4040,71 +3798,6 @@
 		)
 	)
 	(sheet
-		(at 48.26 25.4)
-		(size 19.05 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "ad227302-2045-4a3c-a780-a5453aa68303")
-		(property "Sheetname" "LDO2"
-			(at 44.704 25.146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 44.958 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3" output
-			(at 67.31 27.94 0)
-			(uuid "79c8d619-41cf-4bb2-b255-b80dd4f8d042")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 48.26 27.94 180)
-			(uuid "fab7726c-6521-4781-b314-7b46e98c7c19")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
-					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 73.66 48.26)
 		(size 21.59 17.78)
 		(exclude_from_sim no)
@@ -4593,6 +4286,52 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
 					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 27.94)
+		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0")
+		(property "Sheetname" "ESC"
+			(at 73.66 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESC.kicad_sch"
+			(at 73.66 43.7646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
+					(page "18")
 				)
 			)
 		)

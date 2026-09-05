@@ -4710,10 +4710,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0135")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR053")
 					(unit 1)
@@ -4796,10 +4792,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "R30")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "R20")
 					(unit 1)
@@ -4879,10 +4871,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0128")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR035")
 					(unit 1)
@@ -4962,10 +4950,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0124")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR031")
 					(unit 1)
@@ -5044,10 +5028,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0131")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR042")
 					(unit 1)
@@ -5156,10 +5136,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "Y4")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "Y1")
 					(unit 1)
@@ -5241,10 +5217,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C94")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C3")
 					(unit 1)
@@ -5326,10 +5298,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C90")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C25")
 					(unit 1)
@@ -5411,10 +5379,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C96")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C29")
 					(unit 1)
@@ -5496,10 +5460,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "J16")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "J8")
 					(unit 1)
@@ -5579,10 +5539,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0116")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR030")
 					(unit 1)
@@ -5662,10 +5618,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0133")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR046")
 					(unit 1)
@@ -5752,10 +5704,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "Q8")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "Q3")
 					(unit 1)
@@ -5849,10 +5797,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "D11")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "D4")
 					(unit 1)
@@ -5930,10 +5874,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0130")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR012")
 					(unit 1)
@@ -6013,10 +5953,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0134")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR054")
 					(unit 1)
@@ -6103,10 +6039,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "Q7")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "Q1")
 					(unit 1)
@@ -6186,10 +6118,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0132")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR045")
 					(unit 1)
@@ -6269,10 +6197,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0109")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR029")
 					(unit 1)
@@ -6352,10 +6276,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0125")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR032")
 					(unit 1)
@@ -6435,10 +6355,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0137")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR049")
 					(unit 1)
@@ -6518,10 +6434,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0129")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR039")
 					(unit 1)
@@ -6603,10 +6515,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C93")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C27")
 					(unit 1)
@@ -6686,10 +6594,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C84")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C20")
 					(unit 1)
@@ -6771,10 +6675,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C91")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C2")
 					(unit 1)
@@ -6856,10 +6756,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C88")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C5")
 					(unit 1)
@@ -6941,10 +6837,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "R27")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "R15")
 					(unit 1)
@@ -7027,10 +6919,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "R29")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "R17")
 					(unit 1)
@@ -7109,10 +6997,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0122")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR038")
 					(unit 1)
@@ -7192,10 +7076,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0127")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR034")
 					(unit 1)
@@ -7282,10 +7162,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "Q9")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "Q2")
 					(unit 1)
@@ -7365,10 +7241,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0103")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR027")
 					(unit 1)
@@ -7450,10 +7322,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C86")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C21")
 					(unit 1)
@@ -7733,10 +7601,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "IC3")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "IC1")
 					(unit 1)
@@ -7816,10 +7680,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0105")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR024")
 					(unit 1)
@@ -7901,10 +7761,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C98")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C33")
 					(unit 1)
@@ -7984,10 +7840,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0107")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR026")
 					(unit 1)
@@ -8069,10 +7921,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C87")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C4")
 					(unit 1)
@@ -8152,10 +8000,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0126")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR033")
 					(unit 1)
@@ -8249,10 +8093,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "D10")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "D5")
 					(unit 1)
@@ -8334,10 +8174,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C95")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C28")
 					(unit 1)
@@ -8417,10 +8253,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "FB6")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "FB1")
 					(unit 1)
@@ -8500,10 +8332,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0106")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR025")
 					(unit 1)
@@ -8585,10 +8413,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C92")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C26")
 					(unit 1)
@@ -8682,10 +8506,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "D9")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "D3")
 					(unit 1)
@@ -8765,10 +8585,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0108")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR028")
 					(unit 1)
@@ -8850,10 +8666,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C97")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C32")
 					(unit 1)
@@ -8933,10 +8745,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0123")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR041")
 					(unit 1)
@@ -9019,10 +8827,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "R28")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "R16")
 					(unit 1)
@@ -9104,10 +8908,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C89")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C24")
 					(unit 1)
@@ -9189,10 +8989,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "J15")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "J7")
 					(unit 1)
@@ -9276,10 +9072,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "J14")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "J9")
 					(unit 1)
@@ -9358,10 +9150,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "#PWR0136")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "#PWR047")
 					(unit 1)
@@ -9441,10 +9229,6 @@
 		)
 		(instances
 			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/22a666a3-5790-4ceb-bf26-92e645ab7dd5"
-					(reference "C85")
-					(unit 1)
-				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/b49e282a-c8ff-467d-bc65-06b02df06bd0"
 					(reference "C31")
 					(unit 1)
