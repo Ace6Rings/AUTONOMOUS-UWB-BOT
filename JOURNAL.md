@@ -357,3 +357,10 @@ I decided to use a timer pin for the step (to time it better ig) and use a speci
 Right now, the board is a bit big, i will optimize for space later on and make it look cooler.
 Time spent: 3.6 hours
 
+# 9/4
+I did some more research on how my mainboard should be. I decided that i should use a bldc instead of a stepper motor because it is more efficient, smaller, and lighter than a typical stepper motor. 
+I didn't decide on the actual motor yet, but i did decide on the esc components.
+I will be using the stm32g0 and the mct8316zr. I chose these two components because the stm32g0 is cheap and is more than capable of running the mct8316. Its job is just to tell the mct8316 what to do. It doesnt actually do any of the math. The math and other calculations (from the bmi270, dw3220, the tof sensor) will be done on the h743 because it has a fpu and has a higher clock rate (also more ram).
+I chose the mct8316 because everything is integrated, so im not really making my own esc, but ig it is still a motor driver. The esc is not the point of the project so why bother making one myself when its specs are perfectly fine. 
+<img width="947" height="777" alt="Screenshot 2026-09-04 232845" src="https://github.com/user-attachments/assets/5811d4b8-8b92-487f-9186-7d5b8bb24ab7" />
+Time spent: 2.52 hours
