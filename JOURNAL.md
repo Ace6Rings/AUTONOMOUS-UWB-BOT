@@ -364,3 +364,19 @@ I will be using the stm32g0 and the mct8316zr. I chose these two components beca
 I chose the mct8316 because everything is integrated, so im not really making my own esc, but ig it is still a motor driver. The esc is not the point of the project so why bother making one myself when its specs are perfectly fine. 
 <img width="947" height="777" alt="Screenshot 2026-09-04 232845" src="https://github.com/user-attachments/assets/5811d4b8-8b92-487f-9186-7d5b8bb24ab7" />
 Time spent: 2.52 hours
+
+# 9/13
+I decided on using two boards.
+I will be using the stm32g0 (48 pin variant) because it is suitable for driving two mct8316zr and also the amt102.
+I put the amt102 on the driver board so that it can correct any deviations from the commanded movement. For example,
+the stm32h743 will tell the stm32g0 to move 10 meters forward, and then the g0 will generate a pwm signal to drive the motor until it reaches 10 meters. Without the amt, it could guess when it moves 10 meters, but it couldn't know for sure. But with the amt102, the stm32g0 will know for sure (not really but yk) that it did move 10 meters.
+if i put it on the main board, then it is kinda bad because the stm32h743 will have to tell the driver board if its there or not. I want the motor movement to be independent after the h743 commands it to do something. 
+<img width="1317" height="850" alt="Screenshot 2026-09-13 211237" src="https://github.com/user-attachments/assets/88e6a9e0-5b08-458e-842b-8eb45da5c3c1" />
+This is the completed schematic for the driver board. 
+The hierarchal sheets aren't done yet (the connectors), but it is just jst and banana plugs with esd protection (maybe), so it doesn't matter for now.
+This design follows this logic:
+the ToF sensors, bmi270, and the dw3220 will be on the main board. It will get its global coordinate from the dw3220 and get its local coordinate (not really? but yk its local) from the bmi 270 and the amt102 data. 
+The mainboard will detect obstacles and its coordinates to determine movement. Once it does the math it will tell the stm32g0 via usart to move somewhere, this shouldn't take alot of bandwidth so thats why im using usart.
+This sounds simple but the uwb part (lowk the entire point of the project) would be pretty hard to do, especially if i want to test nlos condiditons and ground that isn't completely flat (3d instead of 2d).
+
+Time spent: 2.8 hours
