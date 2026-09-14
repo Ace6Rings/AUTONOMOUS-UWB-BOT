@@ -413,7 +413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74f964d2-4a07-4693-b109-556d2ae7d26f")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 21.59 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -485,7 +485,7 @@
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/8f5b1df0-1690-439e-a60a-46a43198f202"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)

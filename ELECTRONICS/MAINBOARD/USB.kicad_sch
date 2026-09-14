@@ -1849,7 +1849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e005a5a-7d23-4bac-920c-0323a47db7a4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1910,7 +1910,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -1928,7 +1928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2152a58c-6491-4a5d-9dcd-01cc109b1135")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 143.51 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -1989,7 +1989,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2006,7 +2006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25f215db-49fd-4421-b4ee-22bb996a1716")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 140.716 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +2068,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c388f4-3e66-400c-b849-14997b841e8b")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 76.2 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2193,7 +2193,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2211,7 +2211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ac27d54-88ba-4e80-80e4-78a253700bec")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR017"
 			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2272,7 +2272,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "#PWR03")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2369,7 +2369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0a6a81-b3fb-40b1-a9bd-fce29cf8d5e9")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 104.648 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2431,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2448,7 +2448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ff531de-62e3-4712-aff3-351bc1eb4bd0")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 123.19 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2515,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a998ad98-0047-48ba-be63-9af40e7c133e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -2594,7 +2594,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e5f20c-d0a6-42dc-9b01-8e5964777f9a")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 108.458 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2673,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e80c33-9e77-4f29-b043-f302fa27feef")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 140.716 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2752,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcd74962-3d4a-427b-bfbc-58a338e44d25")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR016"
 			(at 68.58 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2831,7 +2831,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "#PWR01")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
