@@ -664,7 +664,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "C1-94,D1-4,L1-3,#PWR1-151,J1-17,R1-46,U1-22,FB1-4,IC1,Q1-3,SW1-2,Y1-2",
+    "used_designators": "J4,J18-19,#PWR152-156,C95-96,U23",
     "variants": []
   },
   "sheets": [
@@ -803,6 +803,14 @@
     [
       "999db3ce-ae1f-457b-ad21-df1fb0fb0856",
       "BLDC_CONNECTOR"
+    ],
+    [
+      "333584c5-5177-4b5f-b371-6c9cddbf8d2e",
+      "Power_connector_g0"
+    ],
+    [
+      "f0fcce4b-6906-4d25-bb22-3fd6d8b4f8dc",
+      "LDO2"
     ]
   ],
   "text_variables": {},

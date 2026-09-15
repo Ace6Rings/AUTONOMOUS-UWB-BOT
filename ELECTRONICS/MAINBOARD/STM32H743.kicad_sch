@@ -4544,16 +4544,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 132.08) (xy 139.7 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e011f8c-910c-4f4c-9ab0-7eb32785fa5d")
-	)
-	(wire
-		(pts
 			(xy 325.12 50.8) (xy 332.74 50.8)
 		)
 		(stroke
@@ -4621,16 +4611,6 @@
 			(type default)
 		)
 		(uuid "29aaee15-d1c2-4f2d-a6b8-78d64a55adf8")
-	)
-	(wire
-		(pts
-			(xy 132.08 140.97) (xy 135.89 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8bdee5-4d6c-4c17-bde9-cc9923efb552")
 	)
 	(wire
 		(pts
@@ -4721,16 +4701,6 @@
 			(type default)
 		)
 		(uuid "3ddf119c-eb7a-494f-bdd8-a816694bff0c")
-	)
-	(wire
-		(pts
-			(xy 132.08 143.51) (xy 135.89 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42bd0267-3c9f-4597-beee-808af7e10ddf")
 	)
 	(wire
 		(pts
@@ -4894,26 +4864,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 139.7 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "691e4a72-5c85-456e-8510-5087484aba5b")
-	)
-	(wire
-		(pts
-			(xy 140.97 118.11) (xy 132.08 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "744064f9-c740-486c-9292-6866a76778d9")
-	)
-	(wire
-		(pts
 			(xy 140.97 90.17) (xy 140.97 92.71)
 		)
 		(stroke
@@ -4931,16 +4881,6 @@
 			(type default)
 		)
 		(uuid "8129e77e-7643-4273-acd6-3bc2bc4af554")
-	)
-	(wire
-		(pts
-			(xy 132.08 135.89) (xy 135.89 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81be1ab2-b10d-40f5-91aa-d2c440fcc20d")
 	)
 	(wire
 		(pts
@@ -5813,28 +5753,6 @@
 		)
 		(uuid "3699d1ef-9940-48de-ae3c-eb18b729e394")
 	)
-	(hierarchical_label "AMT_B_L"
-		(shape output)
-		(at 132.08 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ad196a5-a22d-46f5-9c07-c5b1a7fc07fa")
-	)
-	(hierarchical_label "AMT_B_R"
-		(shape output)
-		(at 132.08 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "41a3d0e8-9c7f-48c4-b3ba-cfe9deef26c7")
-	)
 	(hierarchical_label "CSN_T"
 		(shape output)
 		(at 254 123.19 180)
@@ -6022,17 +5940,6 @@
 		)
 		(uuid "76ee18d7-858b-4fe3-8164-906f5c3f5bd5")
 	)
-	(hierarchical_label "AMT_A_L"
-		(shape output)
-		(at 132.08 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "79e67e5f-81ea-4ea0-b3c4-81f98528e38a")
-	)
 	(hierarchical_label "BMI_SCK_L"
 		(shape bidirectional)
 		(at -12.7 160.02 0)
@@ -6076,17 +5983,6 @@
 			(justify left)
 		)
 		(uuid "8470657e-e3e8-4939-b6da-506b394718cc")
-	)
-	(hierarchical_label "AMT_X_R"
-		(shape output)
-		(at 132.08 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "85da79e3-68dc-46a5-8ef8-ce310ef5e807")
 	)
 	(hierarchical_label "BMI_CS_R"
 		(shape bidirectional)
@@ -6143,17 +6039,6 @@
 		)
 		(uuid "9415e2ab-59d3-4566-95f1-43d18b28a362")
 	)
-	(hierarchical_label "AMT_A_R"
-		(shape output)
-		(at 132.08 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "945152bd-adf8-4267-9af1-c45b6eeda799")
-	)
 	(hierarchical_label "VL_SCL_1"
 		(shape bidirectional)
 		(at 67.31 184.15 0)
@@ -6176,6 +6061,17 @@
 		)
 		(uuid "9dc74862-398b-4b1d-a3d3-4f09d3e92db7")
 	)
+	(hierarchical_label "USART_TX"
+		(shape output)
+		(at 64.77 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e3176c3-8920-4e84-82da-bd185a0f8b0c")
+	)
 	(hierarchical_label "DIR_R"
 		(shape output)
 		(at 116.84 241.3 180)
@@ -6197,17 +6093,6 @@
 			(justify left)
 		)
 		(uuid "a79f6834-422f-484d-b8d5-861beb44b1ce")
-	)
-	(hierarchical_label "AMT_X_L"
-		(shape output)
-		(at 132.08 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7beeb8c-0803-4cce-9a19-3f500ea481fb")
 	)
 	(hierarchical_label "DIR_L"
 		(shape output)
@@ -6362,6 +6247,17 @@
 			(justify left)
 		)
 		(uuid "f6a8b96f-02a0-47ed-8168-52e0a1bfd70d")
+	)
+	(hierarchical_label "USART_RX"
+		(shape input)
+		(at 64.77 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7300514-2dbe-4814-97ca-bcc118456c38")
 	)
 	(hierarchical_label "VL_SDA_3"
 		(shape bidirectional)
