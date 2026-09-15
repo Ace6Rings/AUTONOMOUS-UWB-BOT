@@ -380,3 +380,13 @@ The mainboard will detect obstacles and its coordinates to determine movement. O
 This sounds simple but the uwb part (lowk the entire point of the project) would be pretty hard to do, especially if i want to test nlos condiditons and ground that isn't completely flat (3d instead of 2d).
 
 Time spent: 2.8 hours
+
+# 9/14
+I "finished" my schematic for my stm32g0 board. 
+<img width="913" height="623" alt="Screenshot 2026-09-14 223332" src="https://github.com/user-attachments/assets/45ea2460-25df-48c9-9ad2-04291155f9b6" />
+I moved onto making the pcb (i will add the passive footprints later). Unfortunately, i can't just mix and match the spi buses and i ended up with routing like this.
+<img width="894" height="420" alt="Screenshot 2026-09-14 223003" src="https://github.com/user-attachments/assets/1330060e-8410-46a9-af7d-4d836055b66e" />
+It took me a while to look for different orientations and ways of routing so that it isnt completely ass.
+But other than that there isn't much else to say.
+
+Time spent: 1.1 hours
