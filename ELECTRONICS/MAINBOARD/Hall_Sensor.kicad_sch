@@ -780,7 +780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d3165c-20ea-4bfe-87cc-f1f5ac015652")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0135"
 			(at 104.14 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -841,27 +841,27 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0139")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0136")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0145")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0148")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0151")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0142")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -879,7 +879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09b84a42-d598-411b-9815-e68d84f56d37")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0134"
 			(at 72.39 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -940,27 +940,27 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0138")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0135")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0144")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0147")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0150")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0141")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -999,7 +999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 80.772 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -1100,7 +1100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 102.362 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -1180,7 +1180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ad7c14-8fd3-40a7-a1ce-9e0e1caec57e")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0133"
 			(at 68.58 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1240,27 +1240,27 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0137")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0134")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0143")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/3b486e63-ffa0-4e6a-b958-900ea9196c41"
-					(reference "#PWR0146")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/9d402d24-f428-4242-8565-5d24f5d90137"
-					(reference "#PWR0149")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/e724e69d-6427-439a-9bf2-6f1108ae4045"
-					(reference "#PWR0140")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -1299,7 +1299,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 73.3552 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1400,7 +1400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.092 73.66 90)
 			(hide yes)
 			(show_name no)

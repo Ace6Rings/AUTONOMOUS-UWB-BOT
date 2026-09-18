@@ -632,7 +632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1315b51d-f087-4420-abfa-6110bcd7accf")
-		(property "Reference" "J15"
+		(property "Reference" "J14"
 			(at 64.135 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -652,7 +652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 63.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -703,11 +703,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/999db3ce-ae1f-457b-ad21-df1fb0fb0856"
-					(reference "J15")
+					(reference "J14")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/999db3ce-ae1f-457b-ad21-df1fb0fb0856"
-					(reference "J17")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -725,7 +725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "783d23b0-df77-4602-b780-771d4d572c43")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 64.135 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -790,11 +790,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/35b0743f-bfc0-4c80-81d1-a26461aee3a5/999db3ce-ae1f-457b-ad21-df1fb0fb0856"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0/a979bc8f-363d-4880-b49b-89facb6aaa9b/999db3ce-ae1f-457b-ad21-df1fb0fb0856"
-					(reference "J16")
+					(reference "J15")
 					(unit 1)
 				)
 			)
