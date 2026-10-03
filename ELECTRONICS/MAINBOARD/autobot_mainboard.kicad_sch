@@ -893,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 74.93) (xy 82.55 74.93)
+			(xy 81.28 74.93) (xy 83.82 74.93)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 128.27 74.93)
+			(xy 102.87 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3039,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 72.39)
+		(at 83.82 72.39)
 		(size 19.05 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "f0fcce4b-6906-4d25-bb22-3fd6d8b4f8dc")
 		(property "Sheetname" "LDO2"
-			(at 82.55 71.628 0)
+			(at 83.82 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3065,7 +3065,7 @@
 			)
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
-			(at 82.296 78.232 0)
+			(at 83.566 78.232 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3076,7 +3076,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 101.6 74.93 0)
+			(at 102.87 74.93 0)
 			(uuid "5ae4c415-cd48-482e-a146-c1ac92900e6e")
 			(effects
 				(font
@@ -3086,7 +3086,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 82.55 74.93 180)
+			(at 83.82 74.93 180)
 			(uuid "46a2f734-e5d0-40ca-9030-94f8a5695716")
 			(effects
 				(font
