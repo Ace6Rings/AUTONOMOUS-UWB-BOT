@@ -2695,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 158.75 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4755cb31-de97-4062-836d-2b5fa5d9b6a9")
-	)
-	(wire
-		(pts
 			(xy 99.06 40.64) (xy 132.08 40.64)
 		)
 		(stroke
@@ -2772,6 +2762,16 @@
 			(type default)
 		)
 		(uuid "6ae238db-9ea8-4b5e-939e-095c75d7e98f")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 158.75 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8152bd-eda8-45a3-bcec-088b0caedc3b")
 	)
 	(wire
 		(pts
@@ -3085,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 158.75 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60ca6df-79e3-410f-ae42-7ad07ad73e9e")
-	)
-	(wire
-		(pts
 			(xy 53.34 114.3) (xy 64.77 114.3)
 		)
 		(stroke
@@ -3142,6 +3132,16 @@
 			(type default)
 		)
 		(uuid "d092a64e-cf3a-4234-9670-29d11a90dae9")
+	)
+	(wire
+		(pts
+			(xy 149.86 119.38) (xy 158.75 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1906097-f1a4-4a14-9778-d213e123877c")
 	)
 	(wire
 		(pts
@@ -3201,7 +3201,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e38c15b1-6843-428b-9152-f0d390f0e255")
+		(uuid "ea0cee39-9f33-42c3-bc7b-13ae7401a037")
 	)
 	(wire
 		(pts
@@ -3403,16 +3403,6 @@
 		)
 		(uuid "37d560e1-892e-40d7-a770-9ea23f731656")
 	)
-	(label "BRAKE_R"
-		(at 158.75 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b5408ac-23c7-44e1-886e-8e42d90d6966")
-	)
 	(label "DIR_R"
 		(at 160.02 86.36 180)
 		(effects
@@ -3434,7 +3424,7 @@
 		(uuid "3d20fc0f-1e9a-4700-902e-4b2840700e33")
 	)
 	(label "DACOUT1_R"
-		(at 162.56 60.96 180)
+		(at 162.56 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3784,7 +3774,7 @@
 		(uuid "d1bc0678-c079-48dc-b406-018242aaf40e")
 	)
 	(label "PWM_R"
-		(at 160.02 66.04 180)
+		(at 158.75 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3794,7 +3784,7 @@
 		(uuid "dbc421b8-5f7d-4736-9e2b-af0bca6602db")
 	)
 	(label "SCL_R"
-		(at 158.75 111.76 180)
+		(at 158.75 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3804,7 +3794,7 @@
 		(uuid "dc3a25d5-af0b-423f-ab94-7c1644934a3c")
 	)
 	(label "DACOUT2_R"
-		(at 162.56 63.5 180)
+		(at 162.56 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3832,6 +3822,16 @@
 			(justify left bottom)
 		)
 		(uuid "eaa16604-59d3-471f-8cb2-8ec381594287")
+	)
+	(label "BRAKE_R"
+		(at 160.02 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef00964e-7e95-41d1-84ee-aad984eb17f3")
 	)
 	(label "SWCLK"
 		(at 85.09 106.68 180)
