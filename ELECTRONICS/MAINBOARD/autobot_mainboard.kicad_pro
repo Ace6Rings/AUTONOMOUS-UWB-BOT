@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -664,7 +664,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C7-18,C74-77,C81,C99,U5-6,#PWR5-6,#PWR21-30,#PWR54,#PWR58,J2-3,R7-14,R23-24",
     "variants": []
   },
   "sheets": [
@@ -683,6 +683,14 @@
     [
       "784d5709-397e-4ddf-a25c-7a5778089f9e",
       "USB"
+    ],
+    [
+      "6ff06033-6847-4d2d-8703-87a17cdf761d",
+      "MCT8316A1V"
+    ],
+    [
+      "de8de49a-d347-4527-990c-03dd7ba81c09",
+      "MCT8316A1V1"
     ],
     [
       "18a50009-3afb-45d9-96a2-f4fbe8f24a2b",
@@ -741,52 +749,12 @@
       "POWER_CONNECTOR"
     ],
     [
-      "35b0743f-bfc0-4c80-81d1-a26461aee3a5",
-      "MCT8316Z"
-    ],
-    [
-      "a979bc8f-363d-4880-b49b-89facb6aaa9b",
-      "MCT8316Z1"
-    ],
-    [
       "a4a47825-503e-4b6e-a4a3-cfc50e9a9818",
       "AMT102_R"
     ],
     [
       "25414fa5-5703-423e-9cac-5ebafad924bd",
       "ESD_PROTECTION"
-    ],
-    [
-      "999db3ce-ae1f-457b-ad21-df1fb0fb0856",
-      "BLDC_CONNECTOR"
-    ],
-    [
-      "9d402d24-f428-4242-8565-5d24f5d90137",
-      "HALL_A"
-    ],
-    [
-      "3b486e63-ffa0-4e6a-b958-900ea9196c41",
-      "HALL_B"
-    ],
-    [
-      "e724e69d-6427-439a-9bf2-6f1108ae4045",
-      "HALL_C"
-    ],
-    [
-      "e724e69d-6427-439a-9bf2-6f1108ae4045",
-      "HALL_C"
-    ],
-    [
-      "3b486e63-ffa0-4e6a-b958-900ea9196c41",
-      "HALL_B"
-    ],
-    [
-      "9d402d24-f428-4242-8565-5d24f5d90137",
-      "HALL_A"
-    ],
-    [
-      "999db3ce-ae1f-457b-ad21-df1fb0fb0856",
-      "BLDC_CONNECTOR"
     ],
     [
       "333584c5-5177-4b5f-b371-6c9cddbf8d2e",

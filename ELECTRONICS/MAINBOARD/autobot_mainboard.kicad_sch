@@ -3191,7 +3191,7 @@
 				(justify left)
 			)
 		)
-		(pin "AMT_X_L" output
+		(pin "AMT_X_L" input
 			(at 128.27 81.28 180)
 			(uuid "922c423a-28c9-43f7-bcfd-69a0b5d3b68e")
 			(effects
