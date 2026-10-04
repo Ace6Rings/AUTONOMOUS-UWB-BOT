@@ -382,6 +382,7 @@ This sounds simple but the uwb part (lowk the entire point of the project) would
 Time spent: 2.8 hours
 
 # 9/14
+
 I "finished" my schematic for my stm32g0 board. 
 <img width="913" height="623" alt="Screenshot 2026-09-14 223332" src="https://github.com/user-attachments/assets/45ea2460-25df-48c9-9ad2-04291155f9b6" />
 I moved onto making the pcb (i will add the passive footprints later). Unfortunately, i can't just mix and match the spi buses and i ended up with routing like this.
@@ -390,3 +391,17 @@ It took me a while to look for different orientations and ways of routing so tha
 But other than that there isn't much else to say.
 
 Time spent: 1.1 hours
+
+# 10/3
+I switched out the esc ic im going to use. I won't be using hall sensors in my motors, so i decided to go for a sensorless esc, the mct8316a1v. 
+
+
+
+<img width="486" height="423" alt="Screenshot 2026-10-03 234555" src="https://github.com/user-attachments/assets/49092259-6b1e-46d3-9c30-7b74a3172cf9" />
+As you can see, the schematic is much simpler.
+<img width="426" height="466" alt="Screenshot 2026-10-03 234642" src="https://github.com/user-attachments/assets/08dcfa8f-e329-48aa-88b0-b5f3d34f8112" />
+I had to make the symbol and figure out what pins to use, etc. I finished the schematic (well ig, there will be more polishing to do).
+There isn't much else to say since this is really just grunt work, but there is lapse so wtv. 
+
+Time spent: 4.25 hours
+
