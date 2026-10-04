@@ -201,6 +201,8 @@
         0.3,
         0.4,
         0.5,
+        0.8,
+        0.9,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -664,7 +666,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "U7",
+    "used_designators": "U7,#PWR105-112,D5-12",
     "variants": []
   },
   "sheets": [
