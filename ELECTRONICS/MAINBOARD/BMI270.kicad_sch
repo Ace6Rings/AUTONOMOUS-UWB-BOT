@@ -1245,7 +1245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MyFootprintLibrary:BMI270_BOS-M"
 			(at 91.44 55.88 0)
 			(hide yes)
 			(show_name no)
