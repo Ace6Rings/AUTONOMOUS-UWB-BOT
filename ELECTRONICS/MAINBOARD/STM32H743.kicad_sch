@@ -6850,7 +6850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "MyFootprintLibrary:SW-SMD_L3.9-W3.0-P4.45"
 			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7248,7 +7248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "MyFootprintLibrary:SW-SMD_L3.9-W3.0-P4.45"
 			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
