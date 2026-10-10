@@ -146,6 +146,12 @@
 		)
 	)
 	(junction
+		(at 99.06 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05d47970-fc07-432f-8dbd-bcfb56cb6500")
+	)
+	(junction
 		(at 256.54 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -168,12 +174,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1c78d6d-0693-4d7a-abce-8cba65fbd197")
-	)
-	(junction
-		(at 99.06 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b75eaad6-e478-4d36-8213-df823f0c7731")
 	)
 	(junction
 		(at 256.54 146.05)
@@ -270,6 +270,16 @@
 			(type default)
 		)
 		(uuid "210d81fd-021e-460a-8d78-99d33bf3dd8e")
+	)
+	(wire
+		(pts
+			(xy 119.38 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23eb4354-8268-4272-a9b0-861370890187")
 	)
 	(wire
 		(pts
@@ -860,6 +870,16 @@
 			(type default)
 		)
 		(uuid "d9cf039e-2cdd-4536-8fc4-aa9340f9b8ba")
+	)
+	(wire
+		(pts
+			(xy 119.38 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc644fd6-d0cd-4469-ac75-cd113ba1ade5")
 	)
 	(wire
 		(pts
@@ -2373,8 +2393,8 @@
 		)
 	)
 	(sheet
-		(at 104.14 78.74)
-		(size 15.24 10.16)
+		(at 104.14 77.47)
+		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2388,7 +2408,7 @@
 		)
 		(uuid "9b7e5e64-ec75-4da5-8497-1788afcae863")
 		(property "Sheetname" "AMT102_L"
-			(at 104.14 78.486 0)
+			(at 104.14 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2399,7 +2419,7 @@
 			)
 		)
 		(property "Sheetfile" "AMT102.kicad_sch"
-			(at 104.14 89.4846 0)
+			(at 104.14 88.2146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,6 +2470,16 @@
 				(justify right)
 			)
 		)
+		(pin "AMT_GATE" input
+			(at 119.38 78.74 0)
+			(uuid "8612377a-88ac-4ca5-b993-1a442eff9f42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
@@ -2459,8 +2489,8 @@
 		)
 	)
 	(sheet
-		(at 104.14 92.71)
-		(size 15.24 10.16)
+		(at 104.14 91.44)
+		(size 15.24 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2475,7 +2505,7 @@
 		)
 		(uuid "a4a47825-503e-4b6e-a4a3-cfc50e9a9818")
 		(property "Sheetname" "AMT102_R"
-			(at 104.14 91.9984 0)
+			(at 104.14 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2530,6 +2560,16 @@
 		(pin "AMT_X" output
 			(at 119.38 95.25 0)
 			(uuid "5c992c9b-a4e6-43ce-8717-13f28cd95766")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AMT_GATE" input
+			(at 119.38 92.71 0)
+			(uuid "636c07c3-4c91-497d-a549-ee9d07d40b96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,6 +3279,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AMTGATE_2" output
+			(at 128.27 78.74 180)
+			(uuid "6c2e9eeb-0a10-4c8e-9c27-46b8281a72f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AMTGATE_R" output
+			(at 128.27 92.71 180)
+			(uuid "731449bb-d2fc-40da-84b4-6c3027355bfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
