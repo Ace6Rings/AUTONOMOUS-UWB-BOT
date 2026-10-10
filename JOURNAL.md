@@ -405,3 +405,14 @@ There isn't much else to say since this is really just grunt work, but there is 
 
 Time spent: 4.25 hours
 
+# 10/4
+I finished the preliminary design of the driver board today. I first had to put the net labels onto the stm32 and then switch them around according to the physical footprint of the stm and mct. That didn't take very long and it worked out pretty well.
+I tried to make the board smaller cuz smaller is better when i have limited space, and yeah.
+<img width="670" height="517" alt="Screenshot 2026-10-04 171705" src="https://github.com/user-attachments/assets/84efd1d1-45cd-4cd2-b4b2-da846122c76e" />
+I don't have the motor pad yet, but i will add them soon. It shouldn't take very long.<img width="679" height="503" alt="Screenshot 2026-10-04 171833" src="https://github.com/user-attachments/assets/ff22d915-6654-4d46-858f-4e2da5f385b3" />
+This is the top layer, it looks pretty good to me, but i will polish it towards the end of the project.<img width="674" height="509" alt="Screenshot 2026-10-04 171823" src="https://github.com/user-attachments/assets/2a93e9c5-0729-48f1-a1f0-cb3311ef0cbb" />
+This is the bottom layer, theres nothing special. You might think why i used the back side for 5v and 3v3. Thats because if i were to use the 3rd layer, the power plane will be split (not really but like the path will be way longer. I also fixed up some vias so it doesnt cut the gnd plane too.
+
+Time spent: 2.9 hours
+
+
