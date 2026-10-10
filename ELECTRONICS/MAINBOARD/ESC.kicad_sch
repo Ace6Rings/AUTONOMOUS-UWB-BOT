@@ -2398,10 +2398,6 @@
 		(uuid "c72c7820-4280-49a4-8318-91ba90618df3")
 	)
 	(no_connect
-		(at 114.3 81.28)
-		(uuid "5215f7fd-90fa-4ca1-8fc7-831f53fc30b8")
-	)
-	(no_connect
 		(at 64.77 116.84)
 		(uuid "a459f572-22e2-4f86-a9cb-d852dbcbe56d")
 	)
@@ -2826,6 +2822,16 @@
 			(type default)
 		)
 		(uuid "78b0cb77-ec80-4225-99ad-0821bbc457a8")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a681a18-756f-4ace-b150-c37c0681539e")
 	)
 	(wire
 		(pts
@@ -4039,12 +4045,12 @@
 	)
 	(hierarchical_label "AMTGATE_2"
 		(shape output)
-		(at 57.15 66.04 0)
+		(at 111.76 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e25bc9aa-5302-4a5c-a732-31b2a0a91ef9")
 	)

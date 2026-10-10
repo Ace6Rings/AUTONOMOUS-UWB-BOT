@@ -1185,16 +1185,22 @@
 		(uuid "09dbf623-7505-4145-b5cf-9064b1d76977")
 	)
 	(junction
+		(at 33.02 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d353dcd-04b5-4c5d-9de9-01af8de18e70")
+	)
+	(junction
 		(at 63.5 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a0d3c8d-4b24-47ca-93fe-058212982475")
 	)
 	(junction
-		(at 33.02 67.31)
+		(at 57.15 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ee388de-6fc8-4662-99a1-e99ac8a8ed0d")
+		(uuid "505d3a9a-bc61-4369-93a2-58ef4660269c")
 	)
 	(junction
 		(at 130.81 74.93)
@@ -1216,6 +1222,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddc2b2a-f06b-41a4-91a3-57b005229795")
+	)
+	(wire
+		(pts
 			(xy 99.06 80.01) (xy 109.22 80.01)
 		)
 		(stroke
@@ -1233,6 +1249,16 @@
 			(type default)
 		)
 		(uuid "31172561-903d-4af6-a799-87f4d7245932")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 57.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486d1c5b-dd65-4dba-9c09-4a9eb01a9f0a")
 	)
 	(wire
 		(pts
@@ -1306,7 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 63.5 67.31)
+			(xy 48.26 67.31) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1346,16 +1372,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 90.17) (xy 140.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c839fc-be20-46df-9c97-b5ffd11fefee")
-	)
-	(wire
-		(pts
 			(xy 33.02 60.96) (xy 33.02 67.31)
 		)
 		(stroke
@@ -1363,6 +1379,16 @@
 			(type default)
 		)
 		(uuid "d5cb7aa7-7315-4876-b0f6-fe4cca4275b5")
+	)
+	(wire
+		(pts
+			(xy 57.15 67.31) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0d95fd-5f79-4372-8d44-a523daab8523")
 	)
 	(wire
 		(pts
@@ -1383,6 +1409,16 @@
 			(type default)
 		)
 		(uuid "ee498430-7a51-41e8-b98a-462ca930a0ba")
+	)
+	(wire
+		(pts
+			(xy 57.15 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02203a5-f82c-49a0-909f-51b9b8c855cf")
 	)
 	(wire
 		(pts
@@ -1813,88 +1849,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 140.97 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "611c625d-ddc6-49f8-8e69-2c57257e7128")
-		(property "Reference" "#PWR049"
-			(at 140.97 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 140.97 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54acec1b-f62d-421b-ba91-ba684e74bde4")
-		)
-		(instances
-			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/9b7e5e64-ec75-4da5-8497-1788afcae863"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/a4a47825-503e-4b6e-a4a3-cfc50e9a9818"
-					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 69.85 67.31 90)
 		(unit 1)
@@ -2313,8 +2267,8 @@
 		)
 	)
 	(sheet
-		(at 100.965 96.52)
-		(size 45.085 17.78)
+		(at 95.25 96.52)
+		(size 50.8 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2328,7 +2282,7 @@
 		)
 		(uuid "25414fa5-5703-423e-9cac-5ebafad924bd")
 		(property "Sheetname" "ESD_PROTECTION"
-			(at 91.948 96.266 0)
+			(at 95.504 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2339,7 +2293,7 @@
 			)
 		)
 		(property "Sheetfile" "ESD_PROTECTION.kicad_sch"
-			(at 100.965 114.8846 0)
+			(at 95.25 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2350,7 +2304,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 140.97 96.52 90)
+			(at 100.33 96.52 90)
 			(uuid "38f12486-e128-424d-ba5a-02957350ce7c")
 			(effects
 				(font

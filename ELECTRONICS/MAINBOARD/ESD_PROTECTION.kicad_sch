@@ -401,7 +401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 109.22 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -822,7 +822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 97.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -908,7 +908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-923"
 			(at 86.36 104.14 0)
 			(hide yes)
 			(show_name no)
