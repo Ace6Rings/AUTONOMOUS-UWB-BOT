@@ -414,5 +414,25 @@ This is the top layer, it looks pretty good to me, but i will polish it towards 
 This is the bottom layer, theres nothing special. You might think why i used the back side for 5v and 3v3. Thats because if i were to use the 3rd layer, the power plane will be split (not really but like the path will be way longer. I also fixed up some vias so it doesnt cut the gnd plane too.
 
 Time spent: 2.9 hours
+# 10/10 
+
+I finished the motor driver board (not polished)
+<img width="447" height="340" alt="2" src="https://github.com/user-attachments/assets/18702e12-a91a-43a1-9180-0c473a9d81f1" />
+
+this should functionally work, i made some changes to how i will connect everything.
+i made almost everything (digital) jst cuz its easy to connect and impossible to physically connect it wrong. I also added esd protection on the two amt102, added a tvs to the 24v rail, and other stuff.
+Im a little worried about the grounding, but it should be fine.
+
+<img width="448" height="348" alt="4" src="https://github.com/user-attachments/assets/432797b3-c730-4878-8e7f-c40f32e7fee2" />
+<img width="443" height="345" alt="3" src="https://github.com/user-attachments/assets/13402a48-e667-437b-9d37-0facab7a4d53" />
+
+the routing looks okay, it could be better but that would just be more aesthetics than function.
+
+I then ported the anchor pcb design to the mainboard because they use the same uwb chip (obviously) and the routing would be the same. 
+<img width="295" height="227" alt="5" src="https://github.com/user-attachments/assets/822a367b-3c4a-473d-996d-7400536fe8ee" />
+
+Notice how there is no routing for the antenna yet, that is because i need to figure out the physical board config first and put it all in a calculator. I also plan on just using 0402 dc blocker capacitors because its cheaper for pcba. But that may do bad things to the signal, but then its impossible to make everything ideal anyway. 
+
+time spent: 3.25 hours
 
 
