@@ -26039,7 +26039,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "9cfb715b-1e12-4c55-a797-60fb4b93efa1")
-		(at 195.55 79.445)
+		(at 236.1625 94.55)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U3"
@@ -29189,7 +29189,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "aca06791-6947-4103-8343-4e19e9102f12")
-		(at 199.56 80)
+		(at 238.2 92.5)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -38188,7 +38188,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d51cf107-7173-4f72-8f1d-730c91d9ffa3")
-		(at 199.56 78.03)
+		(at 234.1 92.5 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -38260,16 +38260,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1e2a9abd-22ef-4b36-8855-76f61fa5410d")
-		)
-		(fp_line
 			(start -0.107836 0.36)
 			(end 0.107836 0.36)
 			(stroke
@@ -38278,6 +38268,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "07259012-5268-4a8f-a611-0a40f0776258")
+		)
+		(fp_line
+			(start -0.107836 -0.36)
+			(end 0.107836 -0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e2a9abd-22ef-4b36-8855-76f61fa5410d")
 		)
 		(fp_rect
 			(start -0.91 -0.46)
@@ -38313,7 +38313,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -38322,7 +38322,7 @@
 			(uuid "a6b0d1f1-d876-4f70-87e4-121496f7668a")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 180)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -48196,6 +48196,14 @@
 		(uuid "1b7687e4-04ae-4246-ab83-abe749496a60")
 	)
 	(segment
+		(start 237.3 93.3)
+		(end 237.3 93.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "1c0bb30d-66f9-4c3d-bf6e-dc343febb4cb")
+	)
+	(segment
 		(start 225.239314 46.280686)
 		(end 225.239314 46.285)
 		(width 0.2)
@@ -48508,6 +48516,14 @@
 		(uuid "c7494041-473c-40a9-86e7-e0f183085f40")
 	)
 	(segment
+		(start 237.72 92.5)
+		(end 237.72 92.88)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "c99f2dc1-26ea-4245-bbaf-233ac54e77cc")
+	)
+	(segment
 		(start 242.55 58.15)
 		(end 242.1 58.6)
 		(width 0.2)
@@ -48570,6 +48586,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "eec0fa97-7c8a-4cc9-9ea1-2629587ea413")
+	)
+	(segment
+		(start 237.72 92.88)
+		(end 237.3 93.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "eef2778f-da9b-45ce-90cf-13e5d8c4b2c7")
 	)
 	(segment
 		(start 227.1 47.175)
@@ -49123,6 +49147,14 @@
 		(uuid "864ef384-a15e-45ec-8899-7d9ca94cd31c")
 	)
 	(segment
+		(start 235.025 93.325)
+		(end 235.025 93.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "8db8c56d-aed7-4567-bd9d-02b7dedaa213")
+	)
+	(segment
 		(start 24.4 46.2875)
 		(end 27.6425 46.2875)
 		(width 0.5)
@@ -49163,12 +49195,28 @@
 		(uuid "c51262fc-3417-4822-b6df-74bbe7f0e165")
 	)
 	(segment
+		(start 234.58 92.5)
+		(end 234.58 92.88)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "c6a663ec-7bba-4195-a203-fed3d3ec6b9b")
+	)
+	(segment
 		(start 337.697499 83.3)
 		(end 337.697499 84.382501)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "+5V")
 		(uuid "c7f4cfd4-36c3-451d-b3ff-a47d6a9c5844")
+	)
+	(segment
+		(start 234.58 92.88)
+		(end 235.025 93.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "cfd5cdd2-fc38-4b37-aab1-05ef014cedfe")
 	)
 	(segment
 		(start 52.2 28.32)
