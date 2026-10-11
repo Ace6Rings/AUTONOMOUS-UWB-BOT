@@ -1382,6 +1382,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1927,6 +2050,335 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS15VZ1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS15VZ1USK"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS15VZ1USK.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "15V, 1900W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTVS15VZ1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS15VZ1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -2357,6 +2809,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "note: pa14 is also boot0\n"
+		(exclude_from_sim no)
+		(at 162.814 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "036dcf77-272d-48a6-8bcf-b2ac8aa8ca79")
+	)
 	(text "SWIM NC\n"
 		(exclude_from_sim no)
 		(at 59.436 108.966 0)
@@ -2377,7 +2839,19 @@
 		(at 220.98 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89da0d7e-2b0a-4ed6-83e2-7909fde40325")
+		(uuid "19f17e1f-9042-41fd-b9c0-d8b978616031")
+	)
+	(junction
+		(at 92.71 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c39bf30-97f8-4ef5-a89f-4d9a41095a1d")
+	)
+	(junction
+		(at 74.93 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ad21f46-dfb4-4c1d-b9d9-964b7460164c")
 	)
 	(junction
 		(at 99.06 40.64)
@@ -2397,9 +2871,23 @@
 		(color 0 0 0 0)
 		(uuid "c72c7820-4280-49a4-8318-91ba90618df3")
 	)
-	(no_connect
-		(at 114.3 81.28)
-		(uuid "5215f7fd-90fa-4ca1-8fc7-831f53fc30b8")
+	(junction
+		(at 82.55 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5495e5b-59e1-4f38-ae07-0d2a38e944c1")
+	)
+	(junction
+		(at 236.22 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faf3da3c-7bb2-4d87-9ec7-45882d0a4127")
+	)
+	(junction
+		(at 226.06 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb9aebfa-a761-4a16-873e-3461ce52d864")
 	)
 	(no_connect
 		(at 64.77 116.84)
@@ -2429,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 53.34 106.68)
+			(xy 49.53 106.68) (xy 64.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +3037,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 26.67) (xy 227.33 26.67)
+			(xy 220.98 26.67) (xy 226.06 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2686,6 +3174,26 @@
 			(type default)
 		)
 		(uuid "3b961294-76df-411d-8cf3-3d8f37a356e7")
+	)
+	(wire
+		(pts
+			(xy 226.06 26.67) (xy 236.22 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41857245-e051-45ed-aa6d-d71faf531620")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b7b235-5970-4037-b1ab-db1a7d343239")
 	)
 	(wire
 		(pts
@@ -2829,6 +3337,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 81.28) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a681a18-756f-4ace-b150-c37c0681539e")
+	)
+	(wire
+		(pts
 			(xy 172.72 74.93) (xy 180.34 74.93)
 		)
 		(stroke
@@ -2959,7 +3477,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 158.75 114.3)
+			(xy 149.86 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3029,6 +3547,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 58.42) (xy 82.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8af1210-2597-4683-98d7-327c9bc8d1cf")
+	)
+	(wire
+		(pts
 			(xy 111.76 78.74) (xy 114.3 78.74)
 		)
 		(stroke
@@ -3069,6 +3597,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 26.67) (xy 242.57 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90d5492-f865-4f4e-be96-b70d3866b7fa")
+	)
+	(wire
+		(pts
 			(xy 203.2 111.76) (xy 220.98 111.76)
 		)
 		(stroke
@@ -3086,6 +3624,16 @@
 			(type default)
 		)
 		(uuid "bb43f5da-00aa-4452-a193-9083a70cab5b")
+	)
+	(wire
+		(pts
+			(xy 236.22 26.67) (xy 236.22 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be43b234-6903-4414-bf24-2c2a147bf98b")
 	)
 	(wire
 		(pts
@@ -3126,6 +3674,16 @@
 			(type default)
 		)
 		(uuid "c526afa9-88a6-442a-ad17-d1b644749c22")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78e676c-521b-45c2-9f38-5378909778b4")
 	)
 	(wire
 		(pts
@@ -3199,6 +3757,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 39.37) (xy 236.22 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5adea3-5b95-41c8-823a-b9544829fb01")
+	)
+	(wire
+		(pts
 			(xy 149.86 58.42) (xy 162.56 58.42)
 		)
 		(stroke
@@ -3216,6 +3784,16 @@
 			(type default)
 		)
 		(uuid "e04150f6-809c-44ff-a0dc-76732dde908e")
+	)
+	(wire
+		(pts
+			(xy 82.55 58.42) (xy 95.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2321f08-c6ed-407b-a659-98cd984bc7fe")
 	)
 	(wire
 		(pts
@@ -3328,7 +3906,7 @@
 		(uuid "194ad6cc-479a-42de-a5ac-ed027d0f2daa")
 	)
 	(label "USART_RX"
-		(at 88.9 95.25 180)
+		(at 88.9 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3498,7 +4076,7 @@
 		(uuid "4a27e71d-8e2a-43fc-a1df-c1f99c588690")
 	)
 	(label "NRESET"
-		(at 53.34 106.68 0)
+		(at 49.53 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3728,7 +4306,7 @@
 		(uuid "9acf37b6-e166-415c-a218-bd9c6a78383d")
 	)
 	(label "USART_TX"
-		(at 88.9 83.82 180)
+		(at 88.9 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3806,6 +4384,16 @@
 			(justify right bottom)
 		)
 		(uuid "b5e7031a-f3bc-4b7b-b8c7-25b5dbffd4a1")
+	)
+	(label "nRESET"
+		(at 95.25 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b74ce999-c301-48b4-9493-a3d63e379013")
 	)
 	(label "3V3_SENSE"
 		(at 53.34 114.3 0)
@@ -3951,7 +4539,7 @@
 	)
 	(hierarchical_label "USART_RX"
 		(shape input)
-		(at 78.74 90.17 0)
+		(at 78.74 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3984,7 +4572,7 @@
 	)
 	(hierarchical_label "USART_TX"
 		(shape output)
-		(at 78.74 87.63 0)
+		(at 78.74 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,6 +4603,17 @@
 		)
 		(uuid "be879bb7-5bad-47a8-af26-144d5c876478")
 	)
+	(hierarchical_label "AMTGATE_R"
+		(shape output)
+		(at 152.4 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf80ddfe-801e-4a79-b809-2b3e90259709")
+	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 86.36 40.64 180)
@@ -4026,6 +4625,17 @@
 		)
 		(uuid "d17ae9bc-ec19-4c57-9cff-3fa8440696d4")
 	)
+	(hierarchical_label "AMTGATE_2"
+		(shape output)
+		(at 111.76 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e25bc9aa-5302-4a5c-a732-31b2a0a91ef9")
+	)
 	(hierarchical_label "AMT_X_L"
 		(shape input)
 		(at 149.86 53.34 0)
@@ -4036,6 +4646,243 @@
 			(justify left)
 		)
 		(uuid "f10928cd-393e-4394-a824-faa87e227024")
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 74.93 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020d60c4-31e7-43fc-96ba-99380ad15fe0")
+		(property "Reference" "#PWR0116"
+			(at 74.93 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 74.93 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 74.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f6da700-8bc9-4875-be24-e9b5b0adbb99")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 236.22 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b14a951-47bd-4c01-87b6-05c4928df7fc")
+		(property "Reference" "#PWR0114"
+			(at 236.22 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 236.22 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 236.22 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a40b81da-c6eb-4afb-af77-856a64509d22")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4257d957-b7b7-429c-814e-b64325633936")
+		(property "Reference" "TP2"
+			(at 95.25 107.1879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.25 109.7279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44ea0e0a-21d5-46eb-a5d3-6394b25d550b")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDREF")
@@ -4190,6 +5037,87 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 82.55 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51f26e30-6c94-4a37-903f-fc0d73f633f4")
+		(property "Reference" "C78"
+			(at 83.058 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 83.058 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 83.5152 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21ee2464-5a57-44d0-9930-0d5b85dd90b0")
+		)
+		(pin "1"
+			(uuid "2bccb342-b235-4146-a36c-2f261b738bf6")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -4498,6 +5426,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 226.06 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55ea65ed-6da2-4fa3-b3e7-f858dd185d2d")
+		(property "Reference" "TP1"
+			(at 228.6 22.0979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 228.6 24.6379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 226.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7ec95ae-aa16-4bd8-8451-b880d841d1ec")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 88.9 49.53 0)
 		(unit 1)
@@ -4577,6 +5584,167 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:PTVS15VZ1USK")
+		(at 236.22 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67c9962c-59b5-43a8-9ff2-e4e9be02b130")
+		(property "Reference" "D13"
+			(at 238.76 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PTVS17VZ1USK"
+			(at 238.76 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 231.775 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS15VZ1USK.pdf"
+			(at 236.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 236.22 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f96d27bf-4b86-41cf-b810-9d68011bb654")
+		)
+		(pin "1"
+			(uuid "40361505-a388-4e17-9386-855d551c0755")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773d8283-db2f-4973-ab6a-ea7bee4629d7")
+		(property "Reference" "TP4"
+			(at 101.6 36.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 101.6 38.6079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "386da1cd-d59e-4893-a298-3cfd7ee312ec")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 99.06 49.53 0)
 		(unit 1)
@@ -4650,6 +5818,85 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 82.55 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d53e90-8666-442d-ac59-b505f31f619b")
+		(property "Reference" "#PWR0115"
+			(at 82.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 82.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e2c2610-8ebe-4a6b-9d7e-b7d9d43fa136")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -4846,7 +6093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 67.31 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4974,8 +6221,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 227.33 26.67 0)
+		(lib_id "Connector:TestPoint")
+		(at 74.93 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4984,30 +6231,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f56b4f8c-2311-471d-badf-2244e6d65bdb")
-		(property "Reference" "#PWR060"
-			(at 227.33 30.48 0)
-			(hide yes)
+		(uuid "e5384b87-2fb7-43b8-83a7-e9b5b01f12c7")
+		(property "Reference" "TP3"
+			(at 77.47 53.8479 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+24V"
-			(at 227.33 21.59 0)
+		(property "Value" "TestPoint"
+			(at 77.47 56.3879 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 26.67 0)
+			(at 80.01 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5018,7 +6266,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 26.67 0)
+			(at 80.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 74.93 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f011f8e2-646c-4787-bc6a-3a21bce38692")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 242.57 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f56b4f8c-2311-471d-badf-2244e6d65bdb")
+		(property "Reference" "#PWR060"
+			(at 242.57 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 242.57 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5029,7 +6355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 227.33 26.67 0)
+			(at 242.57 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5150,6 +6476,87 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 74.93 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffc71c86-3884-4e9c-8d76-852ff00f705a")
+		(property "Reference" "SW3"
+			(at 70.358 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 65.786 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MyFootprintLibrary:SW-SMD_L3.9-W3.0-P4.45"
+			(at 69.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 74.93 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8cc8e8c1-b32a-4fb5-a6f3-23bb89a52d2c")
+		)
+		(pin "1"
+			(uuid "83daf062-1c15-49ca-82f1-3611a4f49742")
+		)
+		(instances
+			(project "autobot_mainboard"
+				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
