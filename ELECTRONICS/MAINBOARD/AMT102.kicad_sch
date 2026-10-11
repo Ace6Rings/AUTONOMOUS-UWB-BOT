@@ -1185,22 +1185,16 @@
 		(uuid "09dbf623-7505-4145-b5cf-9064b1d76977")
 	)
 	(junction
-		(at 33.02 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d353dcd-04b5-4c5d-9de9-01af8de18e70")
-	)
-	(junction
 		(at 63.5 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a0d3c8d-4b24-47ca-93fe-058212982475")
 	)
 	(junction
-		(at 57.15 67.31)
+		(at 33.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "505d3a9a-bc61-4369-93a2-58ef4660269c")
+		(uuid "30126bc6-8123-4bf8-82de-0b0b0c14d910")
 	)
 	(junction
 		(at 130.81 74.93)
@@ -1219,6 +1213,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b000f82f-4d9e-4ea4-92ee-b3351f808528")
+	)
+	(junction
+		(at 57.15 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e03baaca-8e41-4b9e-bff5-8ea3f2b285f6")
 	)
 	(wire
 		(pts
@@ -1269,6 +1269,16 @@
 			(type default)
 		)
 		(uuid "534b1866-d5b6-421c-ad73-a5960a7c0c58")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab33305-2768-474f-ace5-69b1123ea68c")
 	)
 	(wire
 		(pts
@@ -1332,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 57.15 67.31)
+			(xy 52.07 67.31) (xy 57.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1402,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 67.31) (xy 38.1 67.31)
+			(xy 33.02 67.31) (xy 41.91 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1496,7 @@
 	)
 	(hierarchical_label "AMT_GATE"
 		(shape input)
-		(at 43.18 59.69 0)
+		(at 48.26 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1591,7 +1601,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMG1012T")
-		(at 43.18 64.77 270)
+		(at 46.99 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1601,7 +1611,7 @@
 		(dnp no)
 		(uuid "3c8643cd-a399-489c-953c-3dfc4f3b6dc1")
 		(property "Reference" "Q4"
-			(at 30.48 71.12 90)
+			(at 34.29 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1612,7 +1622,7 @@
 			)
 		)
 		(property "Value" "DMG1012T"
-			(at 30.48 69.088 90)
+			(at 34.29 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1623,7 +1633,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
-			(at 41.275 69.85 0)
+			(at 45.085 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1635,7 +1645,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31783.pdf"
-			(at 39.37 69.85 0)
+			(at 43.18 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1657,7 @@
 			)
 		)
 		(property "Description" "20V Vds, 0.63 Id, N-Channel MOSFET with ESD protection, SOT-523"
-			(at 43.18 64.77 0)
+			(at 46.99 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
