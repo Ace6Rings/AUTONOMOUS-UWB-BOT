@@ -435,4 +435,15 @@ Notice how there is no routing for the antenna yet, that is because i need to fi
 
 time spent: 3.25 hours
 
+# 10/11
+
+I did some routing for the bmi270 and some research about the mechanics of the board. I didn't consider that having two imus might be useless if their physical conditions/environment is the same. So i need to think about separating the imus and/or putting little slots in the pcb.
+I will also fix the power situation for the driver board later because putting power plane(s)/trace(s) near clock lines is pretty bad. 
+
+<img width="947" height="470" alt="Screenshot 2026-10-12 191044" src="https://github.com/user-attachments/assets/1402e9bb-5b45-4ac3-96a1-acc77b4c9208" />
+<img width="730" height="597" alt="Screenshot 2026-10-12 191034" src="https://github.com/user-attachments/assets/b655ff99-6466-401f-bfbb-733c98731092" />
+
+The rest of the routing is going to be relatively easy since all the hard stuff is already done (not really). 
+
+time spent: 1.9 hours
 
