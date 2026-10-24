@@ -447,3 +447,13 @@ The rest of the routing is going to be relatively easy since all the hard stuff 
 
 time spent: 1.9 hours
 
+10/24
+
+I routed the mainboard and changed how the ToF sensors are going to be configured. I will just put them all on one i2c bus, and change their addresses by using the xshut pin and change their addresses one at a time at start up. I also did the buttons, power, change the crystal routing, and some other stuff. 
+As for the driver board, i changed the power routing.<img width="707" height="540" alt="Screenshot 2026-10-24 192947" src="https://github.com/user-attachments/assets/e3f14362-0479-48a1-a0fa-f6f6058adcb7" />
+<img width="486" height="468" alt="Screenshot 2026-10-24 192937" src="https://github.com/user-attachments/assets/d9db2c7a-6109-4b49-9f1c-2d33e81b42b6" />
+The electronics are almost done. The cad should be much quicker since it wouldn't be much different to the other stuff i built.
+the coding will be the most interesting part tho.
+
+time spent: 3 hours
+
