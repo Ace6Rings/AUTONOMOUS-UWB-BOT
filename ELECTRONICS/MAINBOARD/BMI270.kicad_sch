@@ -1003,7 +1003,7 @@
 		)
 		(uuid "c6733723-7819-4ba4-8a3f-892622d12708")
 	)
-	(hierarchical_label "BMI_INT"
+	(hierarchical_label "BMI_INT2"
 		(shape input)
 		(at 142.24 58.42 0)
 		(effects

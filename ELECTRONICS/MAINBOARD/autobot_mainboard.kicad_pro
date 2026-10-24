@@ -667,7 +667,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J10,J14-15",
     "variants": []
   },
   "sheets": [
@@ -696,20 +696,20 @@
       "MCT8316A1V1"
     ],
     [
+      "8fc3aae8-c7ac-40e2-9d10-95fc07e2124f",
+      "VL53l1X_xx"
+    ],
+    [
+      "1e742b2d-1347-459b-a1e4-7aac97c80acf",
+      "VL53l1X_xx1"
+    ],
+    [
       "18a50009-3afb-45d9-96a2-f4fbe8f24a2b",
       "VL53L1X0"
     ],
     [
-      "037a1145-d2fa-427f-912d-11744b2ed89a",
-      "VL53L1X1"
-    ],
-    [
-      "ea0baaba-f154-47d1-ba71-cf9d27cdfb48",
-      "VL53L1X2"
-    ],
-    [
-      "bbe9edfa-2cce-4350-82ca-a6538778d251",
-      "VL53L1X3"
+      "ac39de0a-19a2-4867-912b-cfeec3581cd8",
+      "VL53l1X_xx2"
     ],
     [
       "96318396-5abd-4f7f-b640-2fd8293cba6f",
