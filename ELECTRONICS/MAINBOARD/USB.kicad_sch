@@ -1806,7 +1806,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape output)
-		(at 147.32 82.55 0)
+		(at 147.32 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 	)
 	(hierarchical_label "D-"
 		(shape output)
-		(at 147.32 62.23 0)
+		(at 147.32 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
