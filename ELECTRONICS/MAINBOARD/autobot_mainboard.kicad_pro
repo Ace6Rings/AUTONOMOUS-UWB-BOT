@@ -667,7 +667,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "J10,J14-15",
+    "used_designators": "J10,J14-15,U8,U10-12,U15,C21-22,#PWR34-36",
     "variants": []
   },
   "sheets": [
@@ -678,10 +678,6 @@
     [
       "3bfa3ac1-569b-4dcd-933b-7ef1c6ac8888",
       "LMR51430XDDCR"
-    ],
-    [
-      "d04181f1-3545-4903-8afb-41feb0a4a9a3",
-      "LDO"
     ],
     [
       "784d5709-397e-4ddf-a25c-7a5778089f9e",
@@ -712,6 +708,10 @@
       "VL53l1X_xx2"
     ],
     [
+      "6348b849-b9ee-43a2-ae15-52b0463278e9",
+      "NCP1117"
+    ],
+    [
       "96318396-5abd-4f7f-b640-2fd8293cba6f",
       "BMI270_L"
     ],
@@ -726,10 +726,6 @@
     [
       "25414fa5-5703-423e-9cac-5ebafad924bd",
       "ESD_PROTECTION"
-    ],
-    [
-      "6f7d3baf-6e9d-45ae-a329-b78f8e18855d",
-      "LDO3"
     ],
     [
       "f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0",

@@ -158,10 +158,10 @@
 		(uuid "8a5bfbaf-eb99-4198-b598-72dd2d685d1f")
 	)
 	(junction
-		(at 279.4 87.63)
+		(at 260.35 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1c78d6d-0693-4d7a-abce-8cba65fbd197")
+		(uuid "ba24b478-7632-4c53-8829-dc5aef0731ac")
 	)
 	(junction
 		(at 121.92 139.7)
@@ -182,16 +182,6 @@
 			(type default)
 		)
 		(uuid "00229e54-deef-4583-b679-f5c4e2f34935")
-	)
-	(wire
-		(pts
-			(xy 279.4 87.63) (xy 279.4 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "016afd3b-ef26-422c-8fe4-bce198199f8d")
 	)
 	(wire
 		(pts
@@ -275,7 +265,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 87.63) (xy 233.68 87.63)
+			(xy 220.98 87.63) (xy 260.35 87.63)
 		)
 		(stroke
 			(width 0)
@@ -342,6 +332,16 @@
 			(type default)
 		)
 		(uuid "3f6a1f47-09d1-4662-912c-c8066c44de8b")
+	)
+	(wire
+		(pts
+			(xy 260.35 87.63) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcdc7e0-5ca7-4fea-b205-23f6ae5e958d")
 	)
 	(wire
 		(pts
@@ -505,7 +505,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 87.63) (xy 279.4 87.63)
+			(xy 276.86 87.63) (xy 279.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -735,16 +735,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 146.05) (xy 275.59 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2a973d-f245-4cfc-9cbc-ba38d6f53654")
-	)
-	(wire
-		(pts
 			(xy 149.86 109.22) (xy 176.53 109.22)
 		)
 		(stroke
@@ -782,6 +772,16 @@
 			(type default)
 		)
 		(uuid "ec560e3c-d3da-4ca1-bbe9-e7373cd238fb")
+	)
+	(wire
+		(pts
+			(xy 260.35 87.63) (xy 261.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2647ac6-5696-4eb0-bd70-b80def70722a")
 	)
 	(wire
 		(pts
@@ -1539,7 +1539,7 @@
 		)
 	)
 	(sheet
-		(at 260.35 143.51)
+		(at 261.62 85.09)
 		(size 15.24 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1553,9 +1553,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "6f7d3baf-6e9d-45ae-a329-b78f8e18855d")
-		(property "Sheetname" "LDO3"
-			(at 260.35 142.7984 0)
+		(uuid "6348b849-b9ee-43a2-ae15-52b0463278e9")
+		(property "Sheetname" "NCP1117"
+			(at 261.62 84.3784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1565,8 +1565,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 260.35 149.1746 0)
+		(property "Sheetfile" "NCP1117.kicad_sch"
+			(at 261.62 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1577,8 +1577,8 @@
 			)
 		)
 		(pin "3V3" output
-			(at 260.35 146.05 180)
-			(uuid "6c6860e7-7343-45f6-a93c-5e4b5dcbfe00")
+			(at 261.62 87.63 180)
+			(uuid "f741272a-dccb-4fb0-964a-e81b6b3a9427")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,8 +1587,8 @@
 			)
 		)
 		(pin "5V" input
-			(at 275.59 146.05 0)
-			(uuid "4025f4fc-dd6a-4f9c-8e62-dedc3c070717")
+			(at 276.86 87.63 0)
+			(uuid "09403768-3738-4aaa-890c-b0e42aef3af0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1599,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
-					(page "17")
+					(page "11")
 				)
 			)
 		)
@@ -2707,72 +2707,6 @@
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
 					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 85.09)
-		(size 15.24 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "d04181f1-3545-4903-8afb-41feb0a4a9a3")
-		(property "Sheetname" "LDO"
-			(at 233.68 84.3784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 233.68 90.7546 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "3V3" output
-			(at 233.68 87.63 180)
-			(uuid "af75a105-7226-41a2-a864-c717a7200001")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" input
-			(at 248.92 87.63 0)
-			(uuid "4b55d5dd-24f9-4b17-b1c7-e67aa1cacbcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
-					(page "3")
 				)
 			)
 		)
