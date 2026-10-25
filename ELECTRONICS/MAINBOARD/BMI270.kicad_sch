@@ -1048,7 +1048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad705ea-e75d-49a3-a40d-1579242a355e")
-		(property "Reference" "U13"
+		(property "Reference" "U7"
 			(at 115.1733 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1151,11 +1151,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/96318396-5abd-4f7f-b640-2fd8293cba6f"
-					(reference "U13")
+					(reference "U7")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/cba10cde-fc91-41cf-a511-20028c387a58"
-					(reference "U14")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1172,7 +1172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a9ecffc-ed3f-40c0-b13d-fdf3a31a1533")
-		(property "Reference" "C28"
+		(property "Reference" "C24"
 			(at 74.93 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1236,11 +1236,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/96318396-5abd-4f7f-b640-2fd8293cba6f"
-					(reference "C28")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/cba10cde-fc91-41cf-a511-20028c387a58"
-					(reference "C30")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1257,7 +1257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85d6ff46-04b0-40c7-88c6-7a09d54d4261")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 67.31 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1321,11 +1321,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/96318396-5abd-4f7f-b640-2fd8293cba6f"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/cba10cde-fc91-41cf-a511-20028c387a58"
-					(reference "C29")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -1343,7 +1343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c089de4c-28ba-4203-bb75-35c8683aad3c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR033"
 			(at 111.76 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1404,11 +1404,11 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/96318396-5abd-4f7f-b640-2fd8293cba6f"
-					(reference "#PWR043")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/cba10cde-fc91-41cf-a511-20028c387a58"
-					(reference "#PWR044")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
