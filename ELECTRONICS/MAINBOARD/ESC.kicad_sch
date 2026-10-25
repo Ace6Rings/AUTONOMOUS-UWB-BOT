@@ -4075,7 +4075,7 @@
 		)
 		(uuid "4a27e71d-8e2a-43fc-a1df-c1f99c588690")
 	)
-	(label "NRESET"
+	(label "nRESET"
 		(at 49.53 106.68 0)
 		(effects
 			(font
