@@ -447,7 +447,7 @@ The rest of the routing is going to be relatively easy since all the hard stuff 
 
 time spent: 1.9 hours
 
-10/24
+# 10/24
 
 I routed the mainboard and changed how the ToF sensors are going to be configured. I will just put them all on one i2c bus, and change their addresses by using the xshut pin and change their addresses one at a time at start up. I also did the buttons, power, change the crystal routing, and some other stuff. 
 As for the driver board, i changed the power routing.<img width="707" height="540" alt="Screenshot 2026-10-24 192947" src="https://github.com/user-attachments/assets/e3f14362-0479-48a1-a0fa-f6f6058adcb7" />
