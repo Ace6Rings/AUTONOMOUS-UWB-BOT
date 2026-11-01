@@ -457,3 +457,19 @@ the coding will be the most interesting part tho.
 
 time spent: 3 hours
 
+
+# 10/31
+
+More routing. I changed the buck converter to a fixed one, which makes my life easier. There isn't much to say design wise, since this is just boring stuff. <img width="886" height="756" alt="Screenshot 2026-10-31 214422" src="https://github.com/user-attachments/assets/4ab08122-aca6-4bf8-adae-e0933e0b26b7" />
+The routing looks pretty lame (prolly because it is), but it will work pretty well. I will fence the area near the bmi270 though.
+<img width="665" height="734" alt="Screenshot 2026-10-31 214438" src="https://github.com/user-attachments/assets/400f5f71-7f38-475e-9255-69f27c5008fe" />
+Some power routing, I changed the terminal to smth bigger. I also added a switch ic so that it doesnt fry my shit.
+<img width="1102" height="592" alt="Screenshot 2026-10-31 215049" src="https://github.com/user-attachments/assets/66f4a1bc-4877-423e-aae0-1b190083bdf6" />
+<img width="1330" height="352" alt="Screenshot 2026-10-31 215110" src="https://github.com/user-attachments/assets/3ff29596-03ad-4c7b-965d-735c86199489" />
+
+Last things to do is wire the tof sensors, impedance match the antennas, and make it polished. Then check over it.
+
+time spent: 2.4 hours
+
+
+
