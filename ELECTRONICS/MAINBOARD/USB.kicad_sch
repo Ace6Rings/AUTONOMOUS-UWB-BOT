@@ -858,172 +858,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS24"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS24"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V 2A Schottky Diode, SMA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS24_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS24_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Protection:TPD2EUSB30A"
 			(pin_names
 				(offset 0)
@@ -1596,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 49.53) (xy 111.76 49.53)
+			(xy 91.44 49.53) (xy 124.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1643,16 +1477,6 @@
 			(type default)
 		)
 		(uuid "50e47878-5235-4bae-92c4-227b76aa7f3a")
-	)
-	(wire
-		(pts
-			(xy 119.38 49.53) (xy 124.46 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f4336a-442c-46fe-89cf-61b91c1c9808")
 	)
 	(wire
 		(pts
@@ -1775,7 +1599,7 @@
 		(uuid "3b7219ed-af9c-4ff0-9f42-849987f7143c")
 	)
 	(label "DATA +"
-		(at 116.84 82.55 0)
+		(at 116.84 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1785,7 +1609,7 @@
 		(uuid "5f85bcb6-935f-4d9b-b362-19adb78dd6c2")
 	)
 	(label "DATA -"
-		(at 116.84 62.23 0)
+		(at 116.84 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,6 +1628,17 @@
 		)
 		(uuid "b9a38809-c4b9-4c48-a799-6dfd65c42b8d")
 	)
+	(hierarchical_label "VBUS"
+		(shape output)
+		(at 124.46 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1fb713b8-c658-44d1-b37f-7de854765ef7")
+	)
 	(hierarchical_label "D+"
 		(shape output)
 		(at 147.32 62.23 0)
@@ -1815,17 +1650,6 @@
 		)
 		(uuid "32e20948-ee30-48d5-8bce-1ab7d8cda55d")
 	)
-	(hierarchical_label "VBUS"
-		(shape output)
-		(at 124.46 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "407dceef-9a09-4b69-9094-e2bd27ac25fc")
-	)
 	(hierarchical_label "D-"
 		(shape output)
 		(at 147.32 82.55 0)
@@ -1836,6 +1660,17 @@
 			(justify left)
 		)
 		(uuid "69da9647-fbfb-43be-8990-7c9f7762f38e")
+	)
+	(hierarchical_label "BUCK_5V"
+		(shape input)
+		(at 165.1 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7ed219-746f-490f-b8f4-e53e64b2b3ba")
 	)
 	(symbol
 		(lib_id "power:GNDREF")
@@ -2006,7 +1841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25f215db-49fd-4421-b4ee-22bb996a1716")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 140.716 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +1903,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2279,86 +2114,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS24")
-		(at 115.57 49.53 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95cdfa77-726c-49f2-82d8-9b5199b97284")
-		(property "Reference" "D1"
-			(at 115.8875 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS24"
-			(at 115.8875 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 115.57 45.085 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88748/ss22.pdf"
-			(at 115.57 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 2A Schottky Diode, SMA"
-			(at 115.57 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "91f20c58-5903-4ead-bde5-1a3927e3bc16")
-		)
-		(pin "2"
-			(uuid "e4823350-f230-4869-b26c-568f30e322a2")
-		)
-		(instances
-			(project "autobot_mainboard"
-				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 106.68 69.85 180)
 		(unit 1)
@@ -2369,7 +2124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0a6a81-b3fb-40b1-a9bd-fce29cf8d5e9")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 104.648 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2431,7 +2186,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2448,7 +2203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ff531de-62e3-4712-aff3-351bc1eb4bd0")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 123.19 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2270,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5e5f20c-d0a6-42dc-9b01-8e5964777f9a")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 108.458 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2428,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2690,7 +2445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3e80c33-9e77-4f29-b043-f302fa27feef")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 140.716 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2752,7 +2507,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/784d5709-397e-4ddf-a25c-7a5778089f9e"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)

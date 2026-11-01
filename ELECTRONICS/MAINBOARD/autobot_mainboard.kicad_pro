@@ -668,7 +668,7 @@
         "uuid": "f053f1d0-b1f5-4f80-9758-8ee1a2d3659d"
       }
     ],
-    "used_designators": "L1,D1-13,#PWR1-109,C1-69,FB1-4,J1-17,IC1,Q1-5,R1-22,SW1-3,TP1-4,U1-12,Y1-2",
+    "used_designators": "D1-12,L1-2,#PWR1-116,C1-76,U1-14,IC1,R1-20,#FLG1,FB1-4,J1-20,Q1-5,SW1-3,TP1-4,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -678,7 +678,7 @@
     ],
     [
       "3bfa3ac1-569b-4dcd-933b-7ef1c6ac8888",
-      "LMR51430XDDCR"
+      "POWER_MAINBOARD"
     ],
     [
       "784d5709-397e-4ddf-a25c-7a5778089f9e",

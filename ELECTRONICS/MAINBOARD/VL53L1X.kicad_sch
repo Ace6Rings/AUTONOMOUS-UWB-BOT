@@ -786,7 +786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74ee21d7-8b89-49ad-adff-aeabd622306f")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 82.55 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -861,7 +861,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/18a50009-3afb-45d9-96a2-f4fbe8f24a2b"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -957,7 +957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98d2108d-b97f-4077-b321-7b73f6edbee6")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 122.428 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1021,7 +1021,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/18a50009-3afb-45d9-96a2-f4fbe8f24a2b"
-					(reference "C22")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1038,7 +1038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "efb4fdba-1801-42dc-862a-fd8eef9ace38")
-		(property "Reference" "C21"
+		(property "Reference" "C26"
 			(at 114.554 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1102,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/18a50009-3afb-45d9-96a2-f4fbe8f24a2b"
-					(reference "C21")
+					(reference "C26")
 					(unit 1)
 				)
 			)

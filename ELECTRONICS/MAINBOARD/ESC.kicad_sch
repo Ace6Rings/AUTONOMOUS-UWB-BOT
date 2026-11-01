@@ -5053,7 +5053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51f26e30-6c94-4a37-903f-fc0d73f633f4")
-		(property "Reference" "C30"
+		(property "Reference" "C35"
 			(at 83.058 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +5117,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
-					(reference "C30")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -5134,7 +5134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "528dcb2d-79d0-41c7-a94b-2abaab0ba211")
-		(property "Reference" "C31"
+		(property "Reference" "C36"
 			(at 89.154 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5198,7 +5198,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
-					(reference "C31")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5216,7 +5216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54f769ec-a31a-40a3-94f1-c71faf84ff94")
-		(property "Reference" "U9"
+		(property "Reference" "U10"
 			(at 134.2233 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5419,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
-					(reference "U9")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5595,7 +5595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c9962c-59b5-43a8-9ff2-e4e9be02b130")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 238.76 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5659,7 +5659,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5913,7 +5913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96fa9ad3-fa0b-49b2-aed8-3fce62ab011c")
-		(property "Reference" "C32"
+		(property "Reference" "C37"
 			(at 99.822 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5977,7 +5977,7 @@
 		(instances
 			(project "autobot_mainboard"
 				(path "/f053f1d0-b1f5-4f80-9758-8ee1a2d3659d/f3a82e5b-62e6-4c1f-9ee9-6ab064c88bd0"
-					(reference "C32")
+					(reference "C37")
 					(unit 1)
 				)
 			)
